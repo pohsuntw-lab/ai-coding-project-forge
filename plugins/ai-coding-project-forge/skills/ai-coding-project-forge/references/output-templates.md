@@ -1,46 +1,50 @@
-# 專案文件模板
+# Project document templates / 專案文件模板
+
+Write every heading and field in the user's selected language. The English and Traditional Chinese labels below are semantic equivalents, not a requirement to duplicate both languages.
 
 ## PRODUCT.md
 
-包含：專案名稱、一句話目標、使用者、現況痛點、使用情境、輸入輸出、操作流程、主要畫面、MVP模組、第二階段、明確不做、商業規則、假設待確認、成功指標。
+Include: project name / 專案名稱, one-sentence goal / 一句話目標, users / 使用者, current pain / 現況痛點, scenarios / 使用情境, inputs and outputs / 輸入輸出, workflow / 操作流程, screens / 主要畫面, MVP modules / MVP 模組, later phase / 第二階段, explicitly excluded / 明確不做, business rules / 商業規則, assumptions to confirm / 假設待確認, success measures / 成功指標.
 
 ## ARCHITECTURE.md
 
-包含：架構目標與原則、系統邊界、前端、後端、模組、資料模型、檔案保存、帳號角色、工作空間隔離、AI與非AI分工、模型路由、密鑰、隱私、日誌、部署、備份回滾、技術選擇理由、風險與待決定。
+Include: architecture goals and principles / 架構目標與原則, system boundary / 系統邊界, frontend, backend, modules, data model / 資料模型, file storage / 檔案保存, accounts and roles / 帳號角色, workspace isolation / 工作空間隔離, AI versus deterministic responsibilities / AI 與非 AI 分工, model routing / 模型路由, secrets / 密鑰, privacy / 隱私, logs / 日誌, deployment / 部署, backup and rollback / 備份回滾, rationale / 技術選擇理由, risks and open decisions / 風險與待決定.
 
 ## ACCEPTANCE.md
 
-包含：驗收範圍、環境、測試資料、功能／錯誤／邊界案例；適用時增加權限、隱私、效能、成本、備份與回滾。每案格式：
+Include scope, environment, test data, and functional/error/boundary cases. Add authorization, privacy, performance, cost, backup, and rollback when applicable. Use the selected-language equivalent of:
 
 ```markdown
-### AC-001 案例名稱
-- 對應模組：
-- 給定：
-- 當：
-- 那麼：
-- 不允許：
-- 測試資料：
-- 驗收證據：
-- 結果：未測試
+### AC-001 Case name / 案例名稱
+- Related module / 對應模組：
+- Given / 給定：
+- When / 當：
+- Then / 那麼：
+- Must not / 不允許：
+- Test data / 測試資料：
+- Evidence / 驗收證據：
+- Result / 結果：Not tested / 未測試
 ```
 
 ## AGENTS.md
 
-保持精簡，包含：必讀文件、專案目的與範圍、專案地圖、建置與測試命令、工程規則、安全規則、最小垂直切片、完成定義、必須停止詢問。未經實際專案確認的命令標為待確認，不得捏造。
+Keep it concise. Include required reading, project purpose and scope, project map, build and test commands, engineering and safety rules, smallest vertical slice, definition of done, and mandatory stop conditions. Mark unverified commands as `To confirm` / `待確認`; never invent them.
 
 ## START_CODEX.md
 
+Use the user's selected language. The meaning must remain:
+
 ```markdown
-# 啟動Codex施工
+# Start Codex implementation / 啟動 Codex 施工
 
-請先完整閱讀PRODUCT.md、ARCHITECTURE.md、ACCEPTANCE.md、AGENTS.md及現有專案。
+Read PRODUCT.md, ARCHITECTURE.md, ACCEPTANCE.md, AGENTS.md, and the existing project completely.
 
-第一回合只做以下工作：
-1. 回報你理解的目標、MVP與排除範圍。
-2. 列出待確認問題、假設與主要風險。
-3. 盤點現有檔案、執行環境與可用命令。
-4. 提出最小垂直切片計畫。
-5. 列出預計修改檔案與驗收案例。
+In the first turn only:
+1. Restate the goal, MVP, and excluded scope.
+2. List open questions, assumptions, and major risks.
+3. Inspect existing files, runtime, and available commands.
+4. Propose the smallest vertical-slice plan.
+5. List planned file changes and acceptance cases.
 
-本回合不得修改程式。等我核准計畫後才開始施工。
+Do not modify code in this turn. Wait for approval of the plan before implementation.
 ```

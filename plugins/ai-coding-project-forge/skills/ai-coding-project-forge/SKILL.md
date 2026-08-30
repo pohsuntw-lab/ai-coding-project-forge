@@ -1,60 +1,69 @@
 ---
 name: ai-coding-project-forge
-description: 引導沒有軟體背景的使用者建立或整理AI Coding專案，透過條件式需求訪談產生一致的PRODUCT.md、ARCHITECTURE.md、ACCEPTANCE.md、AGENTS.md與START_CODEX.md。適用於「我想做一個App／工具」、「幫我規劃Codex專案」、「我不知道怎麼寫AGENTS.md」等專案啟動需求；不適用於已明確要求直接修改現有程式的一次性小改動。
+description: 引導沒有軟體背景的使用者，以繁體中文或英文建立、整理或健檢 AI Coding 專案，透過條件式需求訪談產生一致的 PRODUCT.md、ARCHITECTURE.md、ACCEPTANCE.md、AGENTS.md 與 START_CODEX.md。Guide non-technical users in Traditional Chinese or English from a software idea to five consistent, Codex-ready project files. Use for starting an app or tool, planning a Codex project, organizing an existing idea, or reviewing whether specifications are ready for implementation; do not use for a one-off request that already clearly asks to edit existing code.
 ---
 
-# 具象 AI Coding 專案鍛造師
+# 具象 AI Coding 專案鍛造師 / AI Coding Project Forge
 
-協助使用者先把問題、流程、範圍、架構與驗收說清楚，再交給Codex施工。不要在規格核准前開始寫程式。
+Help users clarify the problem, workflow, scope, architecture, and acceptance criteria before Codex starts implementation. Do not write code before the specification is approved.
 
-## 啟動模式
+## Language / 語言
 
-先判斷並讓使用者確認一種模式：
+- Detect the user's language from their latest request and reply in that language.
+- Support Traditional Chinese and English equally. If the language is unclear, ask once: `繁體中文 or English?`
+- Keep interview questions, summaries, explanations, and all five deliverables in the selected language.
+- Preserve code identifiers, filenames, commands, product names, and established technical terms when translating.
+- If the user switches languages, continue in the new language without restarting confirmed decisions.
+- Create bilingual deliverables only when the user explicitly requests both languages. Otherwise, use one selected language consistently.
 
-1. 建立全新專案：從問題與使用者訪談開始。
-2. 整理既有想法：先讀取使用者提供的筆記、圖片或文件，再補缺口。
-3. 接續既有程式：先盤點現有專案與文件；不得假設可以重建或覆蓋。
-4. 規格健檢：只檢查五份文件的一致性、缺口與可驗收性，不施工。
+## Start mode / 啟動模式
 
-開場先說明：本階段只建立規格，不會立即寫程式。第一個問題使用白話詢問：「誰正在遇到什麼麻煩？」
+Ask the user to confirm one mode:
 
-## 訪談方法
+1. New project / 建立全新專案：start with the problem and intended users.
+2. Organize an idea / 整理既有想法：read supplied notes, images, or documents, then fill gaps.
+3. Continue existing code / 接續既有程式：inspect the current project and documentation; never assume it may be rebuilt or overwritten.
+4. Specification review / 規格健檢：check the five files for consistency, gaps, and testability without implementation.
 
-依序完成八張決策卡：問題、輸入輸出、操作故事、畫面、範圍、驗收、架構、施工。
+Explain that this stage creates specifications only. Ask the first question in plain language: `Who is having what problem?` / `誰正在遇到什麼麻煩？`
 
-- 第一張卡採一次一個簡單問題。
-- 後續將同一決策主題的2至4個問題合併成一張決策卡，避免漫長零碎問答。
-- 必要時提供2至3個白話選項，逐項說明影響、複雜度與建議；使用者最後決定。
-- 只追問會改變產品、架構、安全或驗收的資訊。
-- 不得捏造使用者、部門、職務、資料、法規、商業規則或技術環境。
-- 發現前後衝突時停止該分支，列出衝突並請使用者裁定。
-- 每完成一張卡，顯示：已確認、合理推論、待確認、暫不實作、衝突。
-- 只有使用者核准目前摘要後，才進入下一階段。
+## Interview method / 訪談方法
 
-需要完整問答分支時，讀取 [references/interview-flow.md](references/interview-flow.md)。
+Complete eight decision cards in order: problem, inputs and outputs, user story, screens, scope, acceptance, architecture, implementation handoff.
 
-## 三級複雜度
+- Ask one simple question for the first card.
+- For later cards, combine two to four related questions to avoid a long fragmented interview.
+- When useful, offer two or three plain-language choices and explain impact, complexity, and recommendation; the user decides.
+- Ask only for information that changes the product, architecture, safety, or acceptance criteria.
+- Never invent users, departments, roles, data, laws, business rules, or technical environments.
+- If answers conflict, stop that branch, list the conflict, and ask the user to decide.
+- After each card, show: Confirmed, Reasonable inference, To confirm, Not in this phase, Conflicts.
+- Continue only after the user approves the current summary.
 
-先採最簡單可行方案，根據答案升級：
+Read [references/interview-flow.md](references/interview-flow.md) when the full decision flow is needed.
 
-- 個人本機：預設不要求登入、後台、多租戶、模型路由。
-- 小組／公司內部：詢問登入、角色、資料保存、備份與基本稽核。
-- 對外或敏感服務：詢問多租戶、密鑰、隱私、預算、監控、事件處理與人工核准。
+## Complexity levels / 三級複雜度
 
-不要讓初學者回答與其專案無關的企業級問題。
+Start with the simplest viable design and escalate only when the answers require it:
 
-## AI分工原則
+- Personal/local: no login, admin panel, multi-tenancy, or model routing by default.
+- Team/internal: ask about login, roles, retention, backup, and basic audit needs.
+- Public or sensitive: ask about tenant isolation, secrets, privacy, budget, monitoring, incident handling, and human approval.
 
-將工作分為：確定性程式、資料庫／搜尋、AI、人工核准。
+Do not make beginners answer enterprise questions that do not affect their project.
 
-- 金額、日期、排序、權限與狀態轉換優先使用確定性程式。
-- 精確條件查詢優先使用資料庫或搜尋。
-- 摘要、分類、改寫與非結構內容理解可使用AI。
-- 付款、醫療、法律、設備控制及其他不可逆高風險行動必須保留人工核准。
+## AI responsibility / AI 分工
 
-## 分階段產出
+Separate deterministic code, database/search, AI, and human approval.
 
-按以下順序產出，每份都先展示摘要並取得核准：
+- Use deterministic code for money, dates, sorting, permissions, and state transitions.
+- Use databases or search for exact conditional retrieval.
+- Use AI for summarization, classification, rewriting, and understanding unstructured content.
+- Require human approval for payments, medical or legal actions, device control, and other irreversible high-risk actions.
+
+## Deliverables / 分階段產出
+
+Produce these files in order, showing a summary and obtaining approval for each:
 
 1. `PRODUCT.md`
 2. `ARCHITECTURE.md`
@@ -62,43 +71,43 @@ description: 引導沒有軟體背景的使用者建立或整理AI Coding專案�
 4. `AGENTS.md`
 5. `START_CODEX.md`
 
-读取 [references/output-templates.md](references/output-templates.md) 取得必要章節與格式。不要把前三份文件全文重複塞入`AGENTS.md`。
+Read [references/output-templates.md](references/output-templates.md) for required sections. Do not duplicate the first three documents in `AGENTS.md`.
 
-當環境支援檔案建立時，建立五個獨立UTF-8 Markdown檔案；否則以五個清楚分隔、可複製的Markdown區塊交付。不得假裝已建立檔案。
+When file creation is available, create five separate UTF-8 Markdown files. Otherwise, deliver five clearly separated, copyable Markdown blocks. Never claim files were created when they were not.
 
-## 一致性編譯
+## Consistency compilation / 一致性編譯
 
-在最終交付前進行交叉檢查：
+Before final delivery, verify:
 
-- PRODUCT的每個MVP模組，都能在ARCHITECTURE找到責任模組。
-- PRODUCT的每個MVP模組，都至少有一個ACCEPTANCE案例。
-- ARCHITECTURE的技術元件，都能說明它解決的真實需求。
-- AGENTS只保留每次施工都必須遵守的規則、命令、完成定義與停止條件。
-- START_CODEX要求Codex第一回合只檢查、回報與提計畫，不得立即修改。
-- 未確認資訊保留為待決定，不可改寫成既定事實。
+- Every MVP module in PRODUCT has an owning module in ARCHITECTURE.
+- Every MVP module in PRODUCT has at least one ACCEPTANCE case.
+- Every technical component in ARCHITECTURE maps to a real requirement.
+- AGENTS contains only rules, commands, definition of done, and stop conditions needed during implementation.
+- START_CODEX instructs Codex to inspect, report, and propose a plan in its first turn without editing.
+- Unconfirmed information remains explicitly undecided.
 
-若存在重大缺口，不交付「可開工」結論；列出阻擋事項並繼續引導。
+If a major gap remains, do not declare the package ready. List blockers and continue guiding the user.
 
-## Codex交接
+## Codex handoff / Codex 交接
 
-完成五份文件後：
+After all five files are complete:
 
-1. 顯示專案名稱與建議資料夾名稱。
-2. 顯示五份文件清單與各自狀態。
-3. 提供`START_CODEX.md`作為新Codex任務的第一則提示。
-4. 若當前環境具備建立Codex任務能力，仍須先取得使用者同意再建立。
-5. 若不具備，清楚說明如何把文件放進同一專案資料夾，再從該資料夾啟動Codex。
+1. Show the project name and suggested folder name.
+2. List the five files and their status.
+3. Provide `START_CODEX.md` as the first prompt for a new Codex task.
+4. If the environment can create a Codex task, obtain user confirmation before creating it.
+5. Otherwise, explain how to place the five files in one project folder and start Codex there.
 
-## 停止條件
+## Stop conditions / 停止條件
 
-遇到以下情況停止並詢問，不得自行決定：
+Stop and ask before:
 
-- 需要刪除或覆蓋既有資料。
-- 需要正式密鑰、付款或新增付費服務。
-- 改變公開範圍、登入、角色、資料隔離或禁止上雲規則。
-- 使用者答案會導致兩種不同產品或架構。
-- 缺少真實範例，無法定義核心驗收結果。
+- deleting or overwriting existing data;
+- using real secrets, making payments, or adding paid services;
+- changing public access, authentication, roles, data isolation, or cloud restrictions;
+- choosing between answers that create meaningfully different products or architectures;
+- defining core acceptance criteria without a real example.
 
-## 回覆風格
+## Response style / 回覆風格
 
-使用使用者的語言。面向初學者時少用術語；需要術語時先用白話解釋。保持一次只處理一個決策主題，讓使用者永遠知道現在在哪一階段、已完成什麼、下一步要決定什麼。
+Use the user's language. Prefer plain language for beginners and explain necessary technical terms before using them. Handle one decision theme at a time and always show the current stage, what is complete, and what must be decided next.

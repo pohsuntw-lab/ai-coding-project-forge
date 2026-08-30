@@ -1,52 +1,56 @@
-# 條件式訪談流程
+# Conditional interview flow / 條件式訪談流程
 
-## 進度顯示
+Use labels in the user's selected language. The bilingual labels below define equivalent meaning; do not show both languages unless the user asks for bilingual output.
 
-每回合開頭顯示：`專案鍛造進度：第N/8卡｜目前：卡片名稱`。
+## Progress / 進度顯示
 
-## 卡1：問題
+Start each turn with `Project Forge: Card N/8 | Current: card name` or `專案鍛造進度：第 N/8 卡｜目前：卡片名稱`.
 
-取得：目標使用者、目前做法、最痛苦步驟、希望改善。完成句型：
+## Card 1: Problem / 卡1：問題
 
+Collect the target user, current method, most painful step, and desired improvement. Complete this sentence:
+
+> Improve [painful work] for [user] from [current method] to [desired outcome].
+>
 > 為【使用者】把【麻煩工作】從【目前做法】改善成【期望結果】。
 
-## 卡2：輸入輸出
+## Card 2: Inputs and outputs / 卡2：輸入輸出
 
-要求至少一份去識別化的真實輸入、理想輸出、正常案例與異常案例。若使用者沒有範例，先協助建立「假資料格式」，並明標未經真實資料驗證。
+Request at least one de-identified real input, the ideal output, a normal case, and an error case. If no example exists, help define a mock-data format and clearly mark it as unvalidated.
 
-## 卡3：操作故事
+## Card 3: User story / 卡3：操作故事
 
-整理成：進入工具 → 輸入／上傳 → 處理 → 覆核 → 保存／匯出。第一版只保留一條主要成功路徑。
+Describe the main path: enter tool → input/upload → process → review → save/export. Keep only one primary success path in the first version.
 
-## 卡4：畫面
+## Card 4: Screens / 卡4：畫面
 
-設計3至5個低保真畫面。每個畫面列目的、欄位、主要按鈕、載入／空白／錯誤／完成狀態。不要在此階段選框架。
+Design three to five low-fidelity screens. For each, list purpose, fields, primary actions, and loading/empty/error/success states. Do not choose a framework yet.
 
-## 卡5：範圍
+## Card 5: Scope / 卡5：範圍
 
-分類：MVP、第二階段、明確不做、待決定。MVP通常維持3至6個模組；超出時主動提出縮小版本。
+Classify items as MVP, later phase, explicitly excluded, or undecided. Keep the MVP near three to six modules; propose a smaller version if it grows beyond that.
 
-## 卡6：驗收
+## Card 6: Acceptance / 卡6：驗收
 
-逐模組建立「給定－當－那麼」案例。至少涵蓋正常、錯誤與邊界；多人或敏感資料再加入權限、隔離、隱私與復原案例。
+Create Given–When–Then cases for each module. Cover normal, error, and boundary behavior. For multiple users or sensitive data, also cover authorization, isolation, privacy, and recovery.
 
-## 卡7：架構
+## Card 7: Architecture / 卡7：架構
 
-只詢問必要決策：載體、前後端、登入、資料、AI、部署、備份。按個人、小組、對外／敏感服務啟用相應問題。每個技術元件必須對應一個真實需求。
+Ask only required decisions about delivery surface, frontend/backend, login, data, AI, deployment, and backup. Enable questions appropriate to personal, team, or public/sensitive use. Every technical component must solve a real requirement.
 
-## 卡8：施工
+## Card 8: Implementation handoff / 卡8：施工
 
-確定專案目錄、最小垂直切片、開發階段、測試命令候選、完成定義與Codex停止條件。
+Confirm the project directory, smallest vertical slice, development phases, candidate test commands, definition of done, and Codex stop conditions.
 
-## 每卡確認格式
+## Card confirmation / 每卡確認格式
 
 ```markdown
-### 本卡摘要
-- 已確認：
-- 合理推論：
-- 待確認：
-- 暫不實作：
-- 衝突：無／列出
+### Card summary / 本卡摘要
+- Confirmed / 已確認：
+- Reasonable inference / 合理推論：
+- To confirm / 待確認：
+- Not in this phase / 暫不實作：
+- Conflicts / 衝突：None / 無，或列出
 
-請選擇：確認本卡／修改答案／回到上一卡
+Choose / 請選擇：Confirm / 確認本卡｜Edit / 修改答案｜Previous / 回到上一卡
 ```
