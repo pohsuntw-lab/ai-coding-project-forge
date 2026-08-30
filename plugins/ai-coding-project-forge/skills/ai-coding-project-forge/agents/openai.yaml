@@ -2,7 +2,7 @@ interface:
   display_name: "具象 AI Coding 專案鍛造師"
   short_description: "引導初學者建立Codex可施工的五份專案文件"
   icon_small: "./assets/icon.png"
-  icon_large: "./assets/logo.png"
+  icon_large: "./assets/icon.png"
   brand_color: "#0B2545"
   default_prompt: "Use $ai-coding-project-forge to guide me from a software idea to a Codex-ready project package."
 policy:
