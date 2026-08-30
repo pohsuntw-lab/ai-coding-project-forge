@@ -1,0 +1,25 @@
+{
+  "name": "ai-coding-project-forge",
+  "version": "0.1.0",
+  "description": "Guide non-technical learners from a software idea to a Codex-ready project brief and four consistent Markdown specifications.",
+  "author": {
+    "name": "Embodied Worker Co., Ltd."
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "具象 AI Coding 專案鍛造師",
+    "shortDescription": "引導一般人建立可交付Codex的完整專案規格",
+    "longDescription": "透過條件式問答釐清問題、流程、畫面、MVP、架構與驗收，逐階段產生PRODUCT.md、ARCHITECTURE.md、ACCEPTANCE.md、AGENTS.md及START_CODEX.md。",
+    "developerName": "具象職人股份有限公司",
+    "category": "Coding",
+    "capabilities": ["Interactive", "Write"],
+    "defaultPrompt": [
+      "我要建立新的AI Coding專案，請從問題訪談開始。",
+      "幫我整理現有想法，產生Codex開工需要的四份MD。",
+      "檢查我的專案規格是否足以交給Codex施工。"
+    ],
+    "brandColor": "#0B2545",
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/logo.png"
+  }
+}
