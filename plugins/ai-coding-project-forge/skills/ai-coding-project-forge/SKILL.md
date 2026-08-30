@@ -1,8 +1,6 @@
 ---
 name: ai-coding-project-forge
 description: 引導沒有軟體背景的使用者建立或整理AI Coding專案，透過條件式需求訪談產生一致的PRODUCT.md、ARCHITECTURE.md、ACCEPTANCE.md、AGENTS.md與START_CODEX.md。適用於「我想做一個App／工具」、「幫我規劃Codex專案」、「我不知道怎麼寫AGENTS.md」等專案啟動需求；不適用於已明確要求直接修改現有程式的一次性小改動。
-metadata:
-  short-description: 把模糊想法鍛造成Codex可施工的專案規格
 ---
 
 # 具象 AI Coding 專案鍛造師
