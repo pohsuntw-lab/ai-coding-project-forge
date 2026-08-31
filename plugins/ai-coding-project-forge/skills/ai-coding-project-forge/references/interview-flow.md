@@ -1,56 +1,122 @@
-# Conditional interview flow / 條件式訪談流程
+# Natural conditional interview flow / 自然條件式訪談流程
 
-Use labels in the user's selected language. The bilingual labels below define equivalent meaning; do not show both languages unless the user asks for bilingual output.
+Use the user's selected language. The bilingual labels below define equivalent meaning; do not show both languages unless the user asks for bilingual output.
 
-## Progress / 進度顯示
+## Core principle / 核心原則
 
-Start each turn with `Project Forge: Card N/8 | Current: card name` or `專案鍛造進度：第 N/8 卡｜目前：卡片名稱`.
+The user should feel that they are having a helpful conversation, not completing a software requirements form. Keep the eight decision areas as an internal completeness check. Expose only four simple stages and ask one main question at a time.
 
-## Card 1: Problem / 卡1：問題
+## Stage 1: Say the idea / 階段一：說出想法
 
-Collect the target user, current method, most painful step, and desired improvement. Complete this sentence:
+Start with:
 
-> Improve [painful work] for [user] from [current method] to [desired outcome].
->
-> 為【使用者】把【麻煩工作】從【目前做法】改善成【期望結果】。
+> 你想做一個什麼工具？請像平常聊天一樣告訴我，不完整也沒關係，我會陪你一步一步整理。
 
-## Card 2: Inputs and outputs / 卡2：輸入輸出
+> What tool would you like to make? Tell me as you normally would in a chat. It does not need to be complete; I will help you work it out step by step.
 
-Request at least one de-identified real input, the ideal output, a normal case, and an error case. If no example exists, help define a mock-data format and clearly mark it as unvalidated.
+From the answer, identify internally:
 
-## Card 3: User story / 卡3：操作故事
+- who has the problem;
+- what is difficult today;
+- how it is handled now;
+- what better result the user wants.
 
-Describe the main path: enter tool → input/upload → process → review → save/export. Keep only one primary success path in the first version.
+Do not require all four facts in the first answer. Ask only for the most consequential missing fact next.
 
-## Card 4: Screens / 卡4：畫面
+## Stage 2: Work it out together / 階段二：一起想清楚
 
-Design three to five low-fidelity screens. For each, list purpose, fields, primary actions, and loading/empty/error/success states. Do not choose a framework yet.
+Cover these internal decision areas gradually without naming them:
 
-## Card 5: Scope / 卡5：範圍
+### Inputs and results / 輸入與結果
 
-Classify items as MVP, later phase, explicitly excluded, or undecided. Keep the MVP near three to six modules; propose a smaller version if it grows beyond that.
+Ask what the person will provide first: answer questions, type text, upload a file, select an option, or use existing data. Then ask what useful result the tool should produce.
 
-## Card 6: Acceptance / 卡6：驗收
+Request one de-identified real example when it will materially improve the specification. If none exists, offer to define a simple mock example and label it unvalidated. Ask about normal, error, and boundary behavior only when each becomes relevant; do not present them as a four-part form.
 
-Create Given–When–Then cases for each module. Cover normal, error, and boundary behavior. For multiple users or sensitive data, also cover authorization, isolation, privacy, and recovery.
+### Main use / 主要操作
 
-## Card 7: Architecture / 卡7：架構
+Reconstruct one primary path internally: enter tool → provide input → process → review → save/export. Describe it back in everyday language and ask whether it matches real life.
 
-Ask only required decisions about delivery surface, frontend/backend, login, data, AI, deployment, and backup. Enable questions appropriate to personal, team, or public/sensitive use. Every technical component must solve a real requirement.
+### Suggested screens / 建議畫面
 
-## Card 8: Implementation handoff / 卡8：施工
+When a visual interface is needed, propose three to five simple screens. For each screen, define purpose, fields, actions, and loading/empty/error/success states internally. Show the user only a concise proposal, for example:
 
-Confirm the project directory, smallest vertical slice, development phases, candidate test commands, definition of done, and Codex stop conditions.
+> 根據你的使用方式，我建議第一版只有四個畫面：開始頁、旅行問卷、三套方案比較、正式行程。你覺得還缺少哪個必要畫面？
 
-## Card confirmation / 每卡確認格式
+Do not ask the user to choose a framework or design technical states.
 
-```markdown
-### Card summary / 本卡摘要
-- Confirmed / 已確認：
-- Reasonable inference / 合理推論：
-- To confirm / 待確認：
-- Not in this phase / 暫不實作：
-- Conflicts / 衝突：None / 無，或列出
+### Scope / 第一版範圍
 
-Choose / 請選擇：Confirm / 確認本卡｜Edit / 修改答案｜Previous / 回到上一卡
-```
+Classify requests internally as first version, later, explicitly excluded, or undecided. Keep the first version near three to six modules and one primary success path. If it grows beyond that, recommend a smaller version and explain what will still be useful when it is finished.
+
+## Stage 3: Confirm the first version / 階段三：確認第一版
+
+Present one plain-language blueprint containing:
+
+1. What problem the tool solves and for whom.
+2. What the user provides and receives.
+3. The first complete end-to-end workflow.
+4. The first-version modules.
+5. The suggested screens, when applicable.
+6. What will wait until later.
+7. What observable result means the first version works.
+
+Ask for one overall confirmation:
+
+- 對，照這個第一版進行 / Yes, use this first version
+- 有一點要修改 / I need to change something
+- 我還不確定，請你建議 / I am not sure—please recommend
+
+Do not show a fixed list of confirmed facts, inferences, exclusions, and conflicts when those categories are empty. If there is a real conflict, explain only the competing choices and their practical impact. If a public, sensitive, paid, or irreversible action is involved, ask the necessary human-approval and safety question in ordinary language before approval.
+
+## Stage 4: Create the files / 階段四：產生文件
+
+After the blueprint is approved, complete the following internal work without turning it into another user questionnaire:
+
+### Acceptance / 驗收
+
+Create Given–When–Then cases for every first-version module. Cover normal, error, and boundary behavior. Add authorization, isolation, privacy, recovery, performance, or cost cases only when the project requires them.
+
+### Architecture / 架構
+
+Choose the simplest architecture that satisfies the confirmed use. Infer technical design from user-facing decisions such as:
+
+- only this user versus several people;
+- one device versus access from anywhere;
+- temporary versus retained data;
+- ordinary versus sensitive information;
+- suggestion versus automatic or irreversible action.
+
+Every technical component must solve a confirmed requirement. Keep unsupported commands and environments marked as unconfirmed.
+
+### Implementation handoff / Codex交接
+
+Define the project directory, smallest vertical slice, development phases, candidate test commands, definition of done, and Codex stop conditions. `START_CODEX.md` must require Codex to inspect and propose a plan before modifying code.
+
+### Package and compilation / 文件與一致性
+
+Generate `PRODUCT.md`, `ARCHITECTURE.md`, `ACCEPTANCE.md`, `AGENTS.md`, and `START_CODEX.md` as one package. Run the consistency checks in `SKILL.md` internally. Pause only if a major conflict, missing core example, or product-changing decision prevents a reliable package.
+
+## Conversation examples / 對話表達原則
+
+Prefer:
+
+> 這個工具只有你自己使用，還是也要讓其他人使用？
+
+Avoid:
+
+> 請定義帳號、角色、租戶隔離與驗證架構。
+
+Prefer:
+
+> 使用工具時，你最可能先做什麼：回答問題、輸入文字，還是上傳檔案？如果你不知道，我可以根據你的構想建議。
+
+Avoid:
+
+> 請一次提供輸入、輸出、正常案例、錯誤案例與邊界條件。
+
+Prefer:
+
+> 我目前理解的是：你想讓旅伴填寫需求，產生三套行程，再一起比較和確認。對嗎？
+
+Avoid fixed card summaries and approval forms after every answer.
