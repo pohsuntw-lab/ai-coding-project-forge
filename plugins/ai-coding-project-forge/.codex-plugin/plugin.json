@@ -1,22 +1,22 @@
 {
   "name": "ai-coding-project-forge",
-  "version": "0.2.0",
-  "description": "Bilingual Traditional Chinese and English guidance that turns a software idea into five consistent, Codex-ready project files.",
+  "version": "0.3.0",
+  "description": "Bilingual natural-language guidance that helps non-technical users turn an idea into five consistent, Codex-ready project files.",
   "author": {
     "name": "Embodied Worker"
   },
   "skills": "./skills/",
   "interface": {
     "displayName": "具象 AI Coding 專案鍛造師",
-    "shortDescription": "AI project planning｜中英雙語",
-    "longDescription": "以繁體中文或英文，透過條件式訪談釐清問題、流程、MVP、架構與驗收，產生五份 Codex-ready 文件。Plan an AI coding project in Traditional Chinese or English and generate five consistent files ready for Codex.",
+    "shortDescription": "從聊天想法到 Codex 專案｜中英雙語",
+    "longDescription": "讓沒有軟體背景的使用者以日常對話說出想法，由 AI 在背後完成需求、第一版範圍、架構與驗收，產生五份 Codex-ready 文件。Guide non-technical users from an everyday-language idea to five consistent files ready for Codex.",
     "developerName": "Embodied Worker",
     "category": "Developer Tools",
     "capabilities": ["Interactive", "Write"],
     "defaultPrompt": [
-      "我要建立新的 AI Coding 專案，請用繁體中文從問題訪談開始。",
-      "I want to start a new AI coding project. Interview me in English and create the five Codex-ready Markdown files.",
-      "Review my project specification／檢查我的專案規格是否足以交給 Codex 施工。"
+      "我想做一個自己的工具，但我不懂軟體開發，請陪我一步一步想清楚。",
+      "I have an idea for a tool but no software background. Help me work it out step by step.",
+      "檢查我的專案規格是否足以交給 Codex 施工。"
     ],
     "brandColor": "#0B2545",
     "composerIcon": "./assets/icon.png",
