@@ -94,10 +94,9 @@ EW AI Coding 的目的不是把所有工作交給單一軟體商，而是先讓�
 
 ## Quick start
 
-- `I want to turn a recurring workplace problem into an internal tool. Help me focus the first version.`
-- `Help my team define an AI application before we start building it with Codex.`
-- `我想把一項重複工作變成部門工具，請先幫我聚焦第一版。`
-- `請檢查這個企業AI應用是否具備可開發、可驗收的條件。`
+- `Help me turn a workplace problem into a focused, testable AI application blueprint for Codex.`
+- `請幫我把企業工作問題聚焦成可開發、可驗收的 AI 應用，再交給 Codex。`
+- `Review my existing MD files for Codex readiness.｜請檢查既有 MD 文件是否一致且可交給 Codex 開發。`
 
 ## Design principles
 
@@ -119,6 +118,10 @@ EW AI Coding 的目的不是把所有工作交給單一軟體商，而是先讓�
 - [Terms of Service / 服務條款](TERMS.md)
 
 ## Version
+
+`v0.3.4` corrects the public Directory and ChatGPT composer icons so the new gold elephant brand asset is shown consistently. Functional behavior is unchanged from v0.3.3.
+
+`v0.3.4` 修正外掛目錄與 ChatGPT 輸入框圖示，統一顯示新的金色大象商標；功能內容與 v0.3.3 相同。
 
 `v0.3.3` establishes EW AI Coding as an **Enterprise AI Application Pre-Deployment Forge**, makes English the primary product language with Traditional Chinese support, adds enterprise application risk routing, and clarifies the boundary between AI Coding, model specialists, domain experts, data infrastructure, and human approval.
 

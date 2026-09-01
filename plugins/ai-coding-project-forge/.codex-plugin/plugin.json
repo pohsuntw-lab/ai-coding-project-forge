@@ -1,6 +1,6 @@
 {
   "name": "ai-coding-project-forge",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "description": "Enterprise AI Application Pre-Deployment Forge that turns workplace problems into governed, testable, Codex-ready application blueprints. English-first with Traditional Chinese support.",
   "author": {
     "name": "Embodied Worker"
@@ -14,9 +14,9 @@
     "category": "Developer Tools",
     "capabilities": ["Interactive", "Write"],
     "defaultPrompt": [
-      "Help me turn a recurring workplace problem into a focused, testable AI application blueprint for Codex.",
-      "Guide my team through AI application pre-deployment planning before we start coding.",
-      "請幫我把企業工作問題聚焦成可開發、可驗收的AI應用，再交給Codex。"
+      "Help me turn a workplace problem into a focused, testable AI application blueprint for Codex.",
+      "請幫我把企業工作問題聚焦成可開發、可驗收的 AI 應用，再交給 Codex。",
+      "Review my existing MD files for Codex readiness.｜請檢查既有 MD 文件是否一致且可交給 Codex 開發。"
     ],
     "brandColor": "#0B2545",
     "composerIcon": "./assets/icon.png",
