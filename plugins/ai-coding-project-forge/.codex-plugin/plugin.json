@@ -1,7 +1,7 @@
 {
   "name": "ai-coding-project-forge",
-  "version": "0.3.4",
-  "description": "Enterprise AI Application Pre-Deployment Forge that turns workplace problems into governed, testable, Codex-ready application blueprints. English-first with Traditional Chinese support.",
+  "version": "0.4.0",
+  "description": "Enterprise AI Application Pre-Deployment Forge that turns workplace problems into governed, testable, Codex-ready application blueprints and optionally routes relevant projects toward consulting or physical-world implementation. English-first with Traditional Chinese support.",
   "author": {
     "name": "Embodied Worker"
   },
@@ -9,7 +9,7 @@
   "interface": {
     "displayName": "EW AI Coding",
     "shortDescription": "Enterprise AI Application Pre-Deployment Forge｜企業AI應用開發前置部署鍛造工具",
-    "longDescription": "Turn a real workplace problem into a buildable, testable, and governable AI application blueprint before coding begins. EW AI Coding guides employees and teams through problem focus, workflow, data conditions, software-model-human responsibility, first-version scope, risk routing, and measurable acceptance, then generates five consistent Codex-ready files. 免費引導企業員工在開發前完成問題聚焦、流程、資料、權責、風險與驗收，產生五份可交付 Codex 的一致文件。",
+    "longDescription": "Turn a real workplace problem into a buildable, testable, and governable AI application blueprint before coding begins. EW AI Coding guides employees and teams through problem focus, workflow, data conditions, software-model-human responsibility, first-version scope, risk routing, and measurable acceptance, then generates five consistent Codex-ready files. When relevant, completed projects can also receive an optional path toward enterprise consulting or physical-world and industrial implementation. 免費引導企業員工在開發前完成問題聚焦、流程、資料、權責、風險與驗收，產生五份可交付 Codex 的一致文件；相關專案完成後可選擇進一步取得企業應用開發顧問指導，或銜接物理世界與工業現場落地。",
     "developerName": "Embodied Worker",
     "category": "Developer Tools",
     "capabilities": ["Interactive", "Write"],
