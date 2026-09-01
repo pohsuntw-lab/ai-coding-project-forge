@@ -1,105 +1,129 @@
-# 具象 AI Coding 專案鍛造師 / AI Coding Project Forge
+# EW AI Coding
 
-**不只和 AI 聊天，開始用 AI 創造自己的工具。**
+## Enterprise AI Application Pre-Deployment Forge
 
-把日常語言中的軟體想法，整理成 Codex 能安全開工的完整規格。Turn an everyday-language software idea into a clear, testable, Codex-ready project package.
+**Turn workplace knowledge into a buildable, testable, and governable AI application blueprint—before coding begins.**
 
-**繁體中文與 English 雙語支援｜Traditional Chinese and English**
+EW AI Coding is a free bilingual skill that helps employees and teams describe a real workplace problem in ordinary language, focus the first useful version, separate software, model, data, and human responsibilities, and generate five consistent files ready for Codex.
 
-[在 ChatGPT 安裝插件 / Install in ChatGPT](https://chatgpt.com/plugins/plugins_6a93c934664c8191baa12828cdb9cc58)
+**企業 AI 應用開發前置部署鍛造工具**
 
-## 為什麼使用 / Why use it
+EW AI Coding 是免費的中英雙語技能，引導企業員工以自然語言說出工作問題，在正式開發前完成問題聚焦、流程梳理、資料條件、系統邊界、模型分工、人工核准與驗收標準，最後產生五份可交付 Codex 的一致文件。
 
-許多人已經會用 ChatGPT 聊天，卻不知道如何把生活、工作中的想法變成可以重複使用的工具。你不需要先學會 PRD、架構、API 或程式語言，只要像平常聊天一樣說出想法，插件就會一步一步協助你想清楚第一版，並在背後完成專業規格。
+[Install in ChatGPT / 在 ChatGPT 安裝](https://chatgpt.com/plugins/plugins_6a93c934664c8191baa12828cdb9cc58)
 
-Many people already chat with AI but do not know how to turn an idea from daily life or work into a reusable tool. You do not need to learn PRDs, architecture, APIs, or programming first. Explain the idea in ordinary language; the plugin helps you define a realistic first version and prepares the professional specifications behind the scenes.
+## Why it matters
 
-## 適合誰 / Who it is for
+Office made document, spreadsheet, and presentation creation a basic workplace capability. AI Coding is making small application creation accessible to the people who understand the work best.
 
-- 只會使用 ChatGPT 聊天，想嘗試開發第一款工具的人。
-- 想做 App、網站、個人效率工具或 AI 工作流程，但沒有軟體背景的人。
-- 需要把訪談筆記或零散構想整理成正式專案規格的團隊。
-- 想接續既有程式，或在施工前檢查規格是否一致、可驗收的人。
-- People who use ChatGPT and want to create their first tool.
-- Non-technical users planning an app, website, personal productivity tool, or AI workflow.
-- Teams turning notes and scattered ideas into an implementation brief.
-- Builders continuing existing code or reviewing whether specifications are ready for Codex.
+EW AI Coding does not claim that every employee should become a software engineer. It helps the employee who understands the problem define what should be built, what data is required, what success means, and when a specialist must be involved.
 
-## 四段自然對話 / Four conversational stages
+## 為什麼企業需要
 
-使用者不必選擇專案模式，也不必填寫八張需求表。插件會從一句自然的想法開始：
+Office 讓文件、試算表與簡報成為員工的基礎能力；AI Coding 正在讓最瞭解工作的人，也能把經驗轉化為小型數位工具。
 
-> 你想做一個什麼工具？請像平常聊天一樣告訴我，不完整也沒關係，我會陪你一步一步整理。
+EW AI Coding 不是要求每位員工成為軟體工程師，而是協助員工定義應該開發什麼、需要哪些資料、如何驗收，以及何時必須引入模型、領域、資安或軟體專家。
 
-The user does not need to select a project mode or complete a requirements form. The plugin starts with one natural question:
+## What “pre-deployment” means
 
-> What tool would you like to make? Tell me as you normally would in a chat. It does not need to be complete; I will help you work it out step by step.
+Here, **pre-deployment** does not mean deploying code to a server. It means deploying the business problem, workflow, data conditions, responsibilities, system boundaries, and acceptance criteria into a reliable implementation blueprint before development starts.
 
-| 階段 | 使用者做什麼 | AI 在背後做什麼 |
-|---|---|---|
-| 1. 說出想法 | 用自己的話描述想做的工具 | 判斷問題、使用者與期望結果 |
-| 2. 一起想清楚 | 每次回答一個簡單問題 | 整理輸入、輸出、流程與必要畫面 |
-| 3. 確認第一版 | 確認或修改一頁專案藍圖 | 縮小範圍、規劃驗收與最簡單架構 |
-| 4. 產生文件 | 取得五份文件並交給 Codex | 完成一致性檢查與施工交接 |
+這裡的「前置部署」不是把程式部署到伺服器，而是在開發前，先把企業問題、工作流程、資料條件、權責分工、系統邊界與驗收標準部署到可執行的開發藍圖中。
 
-Eight professional decision areas remain inside the plugin as a completeness check, but users see only four simple conversational stages.
+## Who it is for
 
-## 五份交付文件 / Five deliverables
+- Employees who understand a recurring workplace problem but do not have a software background.
+- Department AI application champions who want to build useful internal tools with Codex.
+- Teams turning interviews, meeting notes, and operating experience into an implementation-ready blueprint.
+- Builders reviewing whether an existing specification is consistent, safe, and testable.
+- 了解現場痛點、但沒有軟體背景的企業員工。
+- 希望用 Codex 建立部門工具的 AI 應用種子人員。
+- 要把訪談、會議紀錄與工作經驗轉成可施工藍圖的團隊。
+- 需要檢查既有規格是否一致、安全、可驗收的開發者。
 
-| 文件 | 用途 / Purpose |
+## Four conversational stages
+
+1. **Say the problem** — Describe the work in ordinary language.
+2. **Work it out together** — Clarify inputs, results, workflow, data, exceptions, and responsibility.
+3. **Confirm the first version** — Approve one small, complete, useful application blueprint.
+4. **Create the files** — Generate one consistent Codex handoff package.
+
+四段自然對話：說出問題、一起想清楚、確認第一版、產生文件。使用者不必先學會 PRD、架構、API 或程式語言。
+
+## Five Codex-ready deliverables
+
+| File | Purpose / 用途 |
 |---|---|
-| `PRODUCT.md` | 產品目標、使用者、流程、畫面、第一版與成功指標 / Product goals, users, workflow, screens, first version, and success measures |
-| `ARCHITECTURE.md` | 系統邊界、模組、資料、AI 分工、安全、部署與回滾 / Boundaries, modules, data, AI responsibilities, security, deployment, and rollback |
-| `ACCEPTANCE.md` | 正常、錯誤、邊界、權限與復原案例 / Normal, error, boundary, authorization, and recovery cases |
-| `AGENTS.md` | Codex 每次施工都必須遵守的規則與完成定義 / Rules and definition of done for Codex |
-| `START_CODEX.md` | 新 Codex 任務的第一則提示，先檢查與規劃、不立即修改 / First-task prompt that requires inspection and planning before edits |
+| `PRODUCT.md` | Problem, users, workflow, screens, first-version scope, and success measures / 問題、使用者、流程、畫面、第一版與成功指標 |
+| `ARCHITECTURE.md` | Software, model, data, human responsibility, security, deployment, and rollback / 程式、模型、資料、人工責任、安全、部署與回滾 |
+| `ACCEPTANCE.md` | Measurable normal, error, boundary, authorization, and recovery cases / 可量測的正常、錯誤、邊界、權限與復原案例 |
+| `AGENTS.md` | Rules, commands, stop conditions, and definition of done for Codex / Codex 必須遵守的規則、命令、停止條件與完成定義 |
+| `START_CODEX.md` | The first Codex instruction: inspect and propose a plan before editing / 啟動 Codex 的第一則指令：先檢查與規劃，再開始修改 |
 
-五份文件是給 Codex 施工使用。一般使用者只需確認一頁容易理解的第一版專案藍圖，不必逐份審查技術文件。
+## Enterprise governance boundary
 
-The five files are for Codex implementation. Ordinary users confirm one plain-language first-version blueprint rather than reviewing every technical file separately.
+EW AI Coding classifies the application before handoff:
 
-## 雙語使用方式 / Bilingual behavior
+| Level | Typical scope | Required control |
+|---|---|---|
+| Personal tool | One user, non-sensitive data, reversible work | User testing |
+| Department tool | Shared workflow or team data | Owner, permissions, versioning, and department review |
+| Enterprise system | Sensitive data, cross-department use, or critical records | IT, security, architecture, and formal acceptance |
+| High-risk system | Money, legal or medical action, safety, or device control | Qualified specialists and mandatory human approval |
 
-- 插件會依你的訊息自動使用繁體中文或英文。
-- 訪談、藍圖與五份文件會保持同一語言。
-- 對話中切換語言時，已確認的決策會保留。
-- 只有你明確要求時，才會同時產生中英文兩套文件。
-- The plugin automatically follows the language of your request.
-- The conversation, blueprint, and all five files stay in the selected language.
-- Confirmed decisions are preserved if you switch languages mid-conversation.
-- Two complete language versions are produced only when explicitly requested.
+企業可自行建立一般工具，但涉及敏感資料、跨部門、財務、安全、法律、醫療或設備控制時，必須升級治理與專業審查。AI Coding 能降低開發門檻，不會取消工程責任。
 
-## 快速開始 / Quick start
+## Responsibility routing
 
-安裝後，在新對話中提及插件並輸入：
+- **Codex and deterministic software:** interfaces, workflows, databases, permissions, reports, sorting, and state transitions.
+- **Model specialists:** computer vision, time-series detection, retrieval, multimodal models, fine-tuning, evaluation, and inference optimization.
+- **Domain specialists:** CAD geometry, manufacturing, energy, finance, healthcare, or other professional rules.
+- **Data specialists and infrastructure:** data quality, lineage, replay, integration, and reliable real-world data sources.
+- **Humans:** approval of high-risk, irreversible, or professionally accountable decisions.
 
-- `我想做一個自己的工具，但我不懂軟體開發，請陪我一步一步想清楚。`
-- `I have an idea for a tool but no software background. Help me work it out step by step.`
-- `檢查我的專案規格是否足以交給 Codex 施工。`
-- `Review whether my project specification is ready for Codex implementation.`
+EW AI Coding 的目的不是把所有工作交給單一軟體商，而是先讓企業掌握問題、規格與驗收，再精準判斷真正需要哪一類專家。
 
-## 設計原則 / Design principles
+## Language behavior
 
-- 對使用者保持簡單，對 Codex 保持嚴謹 / Simple for the user, rigorous for Codex.
-- 使用者用生活語言回答，AI 負責轉譯成軟體規格 / Users speak naturally; AI translates the answers into specifications.
-- 規格核准前不寫程式 / No implementation before the first-version blueprint is approved.
-- 不捏造資料、法規、商業規則或技術環境 / Never invent data, laws, business rules, or environments.
-- 優先完成一條真正能運作的流程 / Start with one complete workflow that can produce a real result.
-- 高風險或不可逆行動保留人工核准 / Keep humans in control of high-risk or irreversible actions.
-- 每個第一版模組都能追溯到架構責任與驗收案例 / Every first-version module maps to architecture ownership and acceptance cases.
+- English and Traditional Chinese are fully supported.
+- The skill follows the language of the latest user request.
+- The interview, blueprint, and five files remain in one selected language.
+- Bilingual deliverables are created only when explicitly requested.
+- 完整支援英文與繁體中文，並依使用者最新訊息選擇語言。
+- 訪談、藍圖與五份文件保持同一語言；只有明確要求時才產生雙語文件。
 
-## 安裝、支援與政策 / Installation, support, and policies
+## Quick start
 
-- [學生安裝與使用 / Student installation](STUDENT_INSTALLATION.md)
-- [教師發佈指南 / Educator publishing guide](PUBLISHING_GUIDE.md)
-- [支援 / Support](SUPPORT.md)
-- [隱私權政策 / Privacy Policy](PRIVACY.md)
-- [服務條款 / Terms of Service](TERMS.md)
+- `I want to turn a recurring workplace problem into an internal tool. Help me focus the first version.`
+- `Help my team define an AI application before we start building it with Codex.`
+- `我想把一項重複工作變成部門工具，請先幫我聚焦第一版。`
+- `請檢查這個企業AI應用是否具備可開發、可驗收的條件。`
 
-## 版本 / Version
+## Design principles
 
-`v0.3.0` replaces the visible eight-card interview with four natural conversational stages, lets the plugin infer the project mode, asks one main question at a time, proposes the simplest first version, and generates the five files as one coordinated package.
+- Simple for employees; rigorous for implementation.
+- Define the problem before choosing a model or technical stack.
+- No coding before the first-version blueprint is approved.
+- Do not invent data, laws, business rules, users, departments, or environments.
+- Build one complete useful workflow before expanding scope.
+- Keep humans in control of high-risk or irreversible actions.
+- Map every first-version module to architecture ownership and acceptance evidence.
+- Preserve enterprise ownership of code, data, and knowledge.
 
-`v0.3.0` 將使用者可見的八張決策卡改為四段自然對話，由插件自動判斷專案模式、每次只問一個主要問題、主動提出最簡單第一版，並一次產生相互一致的五份文件。
+## Installation, support, and policies
 
-`v0.2.0` added full Traditional Chinese and English interaction, bilingual documentation, and language-aware deliverables.
+- [Student installation / 學員安裝](STUDENT_INSTALLATION.md)
+- [Educator publishing guide / 教師發佈指南](PUBLISHING_GUIDE.md)
+- [Support / 支援](SUPPORT.md)
+- [Privacy Policy / 隱私權政策](PRIVACY.md)
+- [Terms of Service / 服務條款](TERMS.md)
+
+## Version
+
+`v0.3.3` establishes EW AI Coding as an **Enterprise AI Application Pre-Deployment Forge**, makes English the primary product language with Traditional Chinese support, adds enterprise application risk routing, and clarifies the boundary between AI Coding, model specialists, domain experts, data infrastructure, and human approval.
+
+`v0.3.3` 將 EW AI Coding 正式定位為「企業 AI 應用開發前置部署鍛造工具」，以英文為主、繁體中文為輔，新增企業應用風險分流，並明確區分 AI Coding、模型專家、領域專家、資料基礎設施與人工核准的責任。
+
+`v0.3.0` simplified the visible interview into four natural conversational stages and generated the five files as one consistent package.
+
+`v0.2.0` added full Traditional Chinese and English interaction and language-aware deliverables.

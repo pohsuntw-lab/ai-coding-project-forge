@@ -1,9 +1,9 @@
 interface:
-  display_name: "具象 AI Coding 專案鍛造師"
-  short_description: "中英雙語引導，把想法鍛造成 Codex-ready 專案"
+  display_name: "EW AI Coding"
+  short_description: "Enterprise AI Application Pre-Deployment Forge｜企業AI應用開發前置部署鍛造工具"
   icon_small: "./assets/icon.png"
   icon_large: "./assets/icon.png"
   brand_color: "#0B2545"
-  default_prompt: "Use $ai-coding-project-forge in my language to guide me from a software idea to five consistent, Codex-ready project files. 請依我的語言完成訪談與文件。"
+  default_prompt: "Use $ai-coding-project-forge in my language to turn a real workplace problem into a governed, testable AI application blueprint and five consistent, Codex-ready files. 請依我的語言完成企業AI應用開發前置部署鍛造。"
 policy:
   allow_implicit_invocation: true

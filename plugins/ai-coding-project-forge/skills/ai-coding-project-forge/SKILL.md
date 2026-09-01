@@ -1,11 +1,15 @@
 ---
 name: ai-coding-project-forge
-description: 引導沒有軟體背景的使用者，以繁體中文或英文，透過自然對話把軟體想法整理成一致的 PRODUCT.md、ARCHITECTURE.md、ACCEPTANCE.md、AGENTS.md 與 START_CODEX.md。Guide non-technical users in Traditional Chinese or English from an everyday-language idea to five consistent, Codex-ready project files. Use for starting an app or tool, organizing an existing idea, continuing existing code, or reviewing specifications; do not use for a one-off request that already clearly asks to edit existing code.
+description: Guide employees and teams through enterprise AI application pre-deployment planning, turning a real workplace problem into a governed, testable blueprint and five consistent, Codex-ready files. English and Traditional Chinese supported. Use for starting an AI application or tool, organizing an existing idea, continuing existing code, or reviewing specifications; do not use for a one-off request that already clearly asks to edit existing code. 引導企業員工完成AI應用開發前置部署鍛造。
 ---
 
-# 具象 AI Coding 專案鍛造師 / AI Coding Project Forge
+# EW AI Coding
 
-Help people who are used to chatting with AI turn an idea into specifications that Codex can implement. Keep the visible experience simple and conversational while preserving rigorous product, architecture, acceptance, safety, and handoff checks internally. Do not write code before the project blueprint is approved.
+## Enterprise AI Application Pre-Deployment Forge / 企業 AI 應用開發前置部署鍛造工具
+
+Help employees and teams turn real workplace problems and operating knowledge into specifications that Codex can implement. Keep the visible experience simple and conversational while preserving rigorous product, architecture, acceptance, governance, safety, and handoff checks internally. Do not write code before the application blueprint is approved.
+
+“Pre-deployment” here means defining and aligning the business problem, workflow, data conditions, responsibilities, system boundaries, risks, and acceptance evidence before implementation. It does not mean deploying code to infrastructure. 「前置部署」是開發前的問題、流程、資料、權責、邊界、風險與驗收部署，不是伺服器上線。
 
 ## Language / 語言
 
@@ -68,6 +72,17 @@ Start with the simplest viable design and escalate only when the answers require
 
 Do not make beginners answer enterprise questions that do not affect their project.
 
+## Enterprise governance routing / 企業治理分流
+
+Classify the intended application before finalizing the blueprint. Do not burden the user with formal governance terminology; explain only the controls that materially affect the real use:
+
+- Personal tool / 個人工具: one user, non-sensitive information, reversible work. User testing may be sufficient.
+- Department tool / 部門工具: shared workflow or team data. Define an owner, permissions, retained history, versioning, and department review.
+- Enterprise system / 企業系統: sensitive information, critical records, cross-department use, or broad access. Require IT, security, architecture, backup, audit, and formal acceptance decisions.
+- High-risk system / 高風險系統: money, medical or legal actions, safety, device control, or other irreversible consequences. Require qualified specialists and explicit human approval.
+
+AI Coding lowers the cost of implementation; it does not remove engineering accountability. When the application requires model training, specialist domain logic, security architecture, reliable physical-world data, or production-grade operations, record that dependency explicitly instead of pretending Codex can remove it.
+
 ## AI responsibility / AI 分工
 
 Separate deterministic code, database/search, AI, and human approval internally.
@@ -76,6 +91,15 @@ Separate deterministic code, database/search, AI, and human approval internally.
 - Use databases or search for exact conditional retrieval.
 - Use AI for summarization, classification, rewriting, and understanding unstructured content.
 - Require human approval for payments, medical or legal actions, device control, and other irreversible high-risk actions.
+
+Route genuine bottlenecks explicitly:
+
+- model specialists for computer vision, time-series detection, retrieval, multimodal models, fine-tuning, evaluation, or inference optimization;
+- domain specialists for CAD geometry, manufacturing, energy, finance, healthcare, or other professional rules;
+- data and infrastructure specialists for data quality, lineage, replay, integration, security, and reliable real-world sources;
+- software engineers for production reliability, performance, complex integration, and security-sensitive implementation.
+
+Keep the enterprise in control of its problem definition, acceptance criteria, code, data, and knowledge assets.
 
 Explain these distinctions to the user only when they affect a real decision.
 

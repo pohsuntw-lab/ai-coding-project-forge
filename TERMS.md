@@ -4,7 +4,7 @@ Last updated / 最後更新：August 30, 2026 / 2026 年 8 月 30 日
 
 ## 繁體中文
 
-具象 AI Coding 專案鍛造師提供教育用途的專案規劃引導，並產生軟體規格草稿；不提供法律、財務、醫療、安全或合規建議。
+EW AI Coding 提供企業AI應用開發前置部署引導，並產生軟體規格草稿；不提供法律、財務、醫療、安全或合規建議。
 
 使用者有責任審閱產生的內容、保護機密資訊、驗證技術決策，並在部署前完成測試。在法律允許的範圍內，本插件按現狀提供，不附任何保證。
 
@@ -12,7 +12,7 @@ Last updated / 最後更新：August 30, 2026 / 2026 年 8 月 30 日
 
 ## English
 
-AI Coding Project Forge provides educational project-planning guidance and generates draft software specification documents. It does not provide legal, financial, medical, security, or compliance advice.
+EW AI Coding provides enterprise AI application pre-deployment guidance and generates draft software specification documents. It does not provide legal, financial, medical, security, or compliance advice.
 
 Users are responsible for reviewing generated content, protecting confidential information, validating technical decisions, and testing software before deployment. The plugin is provided as-is without warranties, to the extent permitted by law.
 

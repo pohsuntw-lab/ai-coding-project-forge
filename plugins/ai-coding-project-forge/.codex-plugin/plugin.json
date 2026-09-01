@@ -1,22 +1,22 @@
 {
   "name": "ai-coding-project-forge",
-  "version": "0.3.0",
-  "description": "Bilingual natural-language guidance that helps non-technical users turn an idea into five consistent, Codex-ready project files.",
+  "version": "0.3.3",
+  "description": "Enterprise AI Application Pre-Deployment Forge that turns workplace problems into governed, testable, Codex-ready application blueprints. English-first with Traditional Chinese support.",
   "author": {
     "name": "Embodied Worker"
   },
   "skills": "./skills/",
   "interface": {
-    "displayName": "具象 AI Coding 專案鍛造師",
-    "shortDescription": "從聊天想法到 Codex 專案｜中英雙語",
-    "longDescription": "讓沒有軟體背景的使用者以日常對話說出想法，由 AI 在背後完成需求、第一版範圍、架構與驗收，產生五份 Codex-ready 文件。Guide non-technical users from an everyday-language idea to five consistent files ready for Codex.",
+    "displayName": "EW AI Coding",
+    "shortDescription": "Enterprise AI Application Pre-Deployment Forge｜企業AI應用開發前置部署鍛造工具",
+    "longDescription": "Turn a real workplace problem into a buildable, testable, and governable AI application blueprint before coding begins. EW AI Coding guides employees and teams through problem focus, workflow, data conditions, software-model-human responsibility, first-version scope, risk routing, and measurable acceptance, then generates five consistent Codex-ready files. 免費引導企業員工在開發前完成問題聚焦、流程、資料、權責、風險與驗收，產生五份可交付 Codex 的一致文件。",
     "developerName": "Embodied Worker",
     "category": "Developer Tools",
     "capabilities": ["Interactive", "Write"],
     "defaultPrompt": [
-      "我想做一個自己的工具，但我不懂軟體開發，請陪我一步一步想清楚。",
-      "I have an idea for a tool but no software background. Help me work it out step by step.",
-      "檢查我的專案規格是否足以交給 Codex 施工。"
+      "Help me turn a recurring workplace problem into a focused, testable AI application blueprint for Codex.",
+      "Guide my team through AI application pre-deployment planning before we start coding.",
+      "請幫我把企業工作問題聚焦成可開發、可驗收的AI應用，再交給Codex。"
     ],
     "brandColor": "#0B2545",
     "composerIcon": "./assets/icon.png",
