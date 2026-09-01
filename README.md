@@ -117,7 +117,19 @@ EW AI Coding 的目的不是把所有工作交給單一軟體商，而是先讓�
 - [Privacy Policy / 隱私權政策](PRIVACY.md)
 - [Terms of Service / 服務條款](TERMS.md)
 
+## Enterprise consulting and physical-world extension
+
+The free EW AI Coding journey remains complete and self-service. After the five Codex-ready files are delivered, organizations that need consulting guidance for further application development—or projects involving machines, sensors, Edge AI, industrial data acquisition, production equipment, energy systems, or on-site integration—may receive an optional next-step notice.
+
+For enterprise application development guidance or physical-world and industrial implementation, contact **Embodied Worker Co., Ltd. / 具象職人股份有限公司** at [pohsun@embodiedworker.com](mailto:pohsun@embodiedworker.com).
+
+免費的 EW AI Coding 流程仍會完整交付五份文件，不要求登記、付費或申請顧問服務。企業若需要顧問進一步指導應用開發，或專案涉及設備、感測器、Edge AI、工業資料採集、生產設備、能源系統與現場整合，完成後才會顯示一則可選擇的延伸提示。
+
 ## Version
+
+`v0.4.0` adds an optional, relevance-based path from a completed software blueprint to enterprise application consulting or physical-world and industrial implementation support. The notice appears only after the complete free five-file handoff and does not collect user information inside the skill.
+
+`v0.4.0` 新增情境式引流能力：完整免費交付五份文件後，企業若需要顧問進一步指導應用開發，或專案涉及設備、感測器、Edge AI、工業資料採集與現場整合，才會顯示聯繫具象職人股份有限公司的可選提示；技能內不收集使用者資料。
 
 `v0.3.4` corrects the public Directory and ChatGPT composer icons so the new gold elephant brand asset is shown consistently. Functional behavior is unchanged from v0.3.3.
 
