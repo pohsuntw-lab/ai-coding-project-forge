@@ -119,11 +119,11 @@ EW AI Coding 的目的不是把所有工作交給單一軟體商，而是先讓�
 
 ## About Embodied Worker / 關於具象職人
 
-**具象職人：讓經驗具象、讓知識傳承，將 AI Coding 轉化為企業能力，讓 AI 成為真正能工作的數位員工。**
+**具象職人：讓經驗具象，讓知識傳承，讓 AI Coding 成為能力，讓 AI 成為員工。**
 
 我們協助企業將員工經驗、專業判斷與工作流程，轉化為可保存、可複製、可執行的數位知識與應用；進一步串聯企業流程、真實資料與工業現場，打造能理解任務、執行工作並持續累積能力的 AI 數位員工，讓個人經驗成為組織資產，讓企業智慧得以規模化傳承。
 
-**Embodied Worker: Make experience tangible, preserve knowledge, turn AI Coding into an enterprise capability, and make AI a digital employee that can truly work.**
+**Embodied Worker: Make experience tangible. Preserve knowledge. Make AI Coding a capability. Make AI an employee.**
 
 We help enterprises transform employee experience, professional judgment, and workflows into digital knowledge and applications that can be preserved, replicated, and executed. By connecting business processes, real-world data, and industrial sites, we build AI digital employees that can understand tasks, perform work, and continuously accumulate capability—turning individual experience into organizational assets and enabling enterprise intelligence to be transferred at scale.
 
