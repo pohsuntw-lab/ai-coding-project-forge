@@ -4,11 +4,11 @@
 
 **Turn an idea for work, learning, or everyday life into a buildable and testable application—before coding begins.**
 
-EW AI Coding is a free bilingual skill that helps anyone describe an idea in ordinary language, focus the first useful version, clarify workflow and responsibility, and generate five consistent files ready for Codex. It can be used for report automation, study assistants, AI travel planners, personal organizers, team workflows, and enterprise applications.
+EW AI Coding is a free bilingual skill that helps anyone describe an idea in ordinary language, focus the first useful version, clarify workflow and responsibility, confirm the final operating platform and package type, and generate five consistent files ready for Codex. It can be used for report automation, study assistants, AI travel planners, personal organizers, team workflows, and enterprise applications.
 
 **AI 應用專案鍛造工具**
 
-EW AI Coding 是免費的中英雙語技能，引導任何人用自然語言說出工作、學習或生活中的想法，在正式開發前完成需求聚焦、使用流程、輸入輸出、第一版範圍、風險與驗收標準，最後產生五份可交付 Codex 的一致文件。無論是報表自動化、學習助手、AI 旅行助手、個人管理工具、團隊流程或企業應用，都可以從一句話開始。
+EW AI Coding 是免費的中英雙語技能，引導任何人用自然語言說出工作、學習或生活中的想法，在正式開發前完成需求聚焦、使用流程、輸入輸出、第一版範圍、風險與驗收標準，確認成品要交付 Web、Windows、macOS、Ubuntu/Linux、Android、iPhone/iPad 或多平台及其打包形式，最後產生五份可交付 Codex 的一致文件。無論是報表自動化、學習助手、AI 旅行助手、個人管理工具、團隊流程或企業應用，都可以從一句話開始。
 
 [Install in ChatGPT / 在 ChatGPT 安裝](https://chatgpt.com/plugins/plugins_6a93c934664c8191baa12828cdb9cc58)
 
@@ -144,7 +144,18 @@ For enterprise application development guidance or physical-world and industrial
 
 免費的 EW AI Coding 流程仍會完整交付五份文件，不要求登記、付費或申請顧問服務。企業若需要顧問進一步指導應用開發，或專案涉及設備、感測器、Edge AI、工業資料採集、生產設備、能源系統與現場整合，完成後才會顯示一則可選擇的延伸提示。
 
+## Delivery platform and packaging
+
+Before generating the five files, EW AI Coding confirms where the finished application will run and what the user must receive: a hosted Web URL, Windows installer or portable app, macOS app, Ubuntu/Linux package or service, Android phone/tablet app, iPhone/iPad app, multi-platform build, container, or source code. Packaging, signing, installation, update, and uninstall requirements are carried into architecture and acceptance.
+
+在產生五份文件前，EW AI Coding 會確認應用最終在哪裡使用，以及要交付網址、Windows 安裝包或可攜版、Mac App、Ubuntu/Linux 套件或服務、Android 手機／平板 App、iPhone／iPad App、多平台版本、容器或原始碼。打包、簽章、安裝、更新與卸載要求會同步寫入架構與驗收文件。
+
 ## Version
+
+`v0.6.0` adds mandatory delivery-target discovery. The interview now distinguishes Web, Windows, macOS, Ubuntu/Linux, Android, iPhone/iPad, and multi-platform delivery; records the expected package; and adds build, signing, installation, update, rollback, and uninstall requirements to the five-file handoff.
+
+`v0.6.0` 新增必要的交付平台訪談，區分 Web、Windows、macOS、Ubuntu/Linux、Android、iPhone/iPad 與多平台成品；明確記錄交付包，並把建置、簽章、安裝、更新、回滾與卸載要求寫入五份文件。
+
 
 `v0.5.0` expands EW AI Coding from an enterprise-first tool into a general AI application forge for work, learning, and everyday life. It adds a clear AI Coding capability statement, new personal and learning use cases, an AI travel planner example, and proportional governance that appears only when the project requires it.
 
