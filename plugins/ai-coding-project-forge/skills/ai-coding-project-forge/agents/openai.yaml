@@ -1,9 +1,9 @@
 interface:
   display_name: "EW AI Coding"
-  short_description: "Enterprise AI Application Pre-Deployment Forge｜企業AI應用開發前置部署鍛造工具"
+  short_description: "Turn ideas into Codex-ready apps｜把想法鍛造成可開發應用"
   icon_small: "./assets/icon.png"
   icon_large: "./assets/icon.png"
   brand_color: "#0B2545"
-  default_prompt: "Use $ai-coding-project-forge in my language to turn a real workplace problem into a governed, testable AI application blueprint and five consistent, Codex-ready files. 請依我的語言完成企業AI應用開發前置部署鍛造。"
+  default_prompt: "Use $ai-coding-project-forge in my language to turn a work, learning, or everyday-life idea into a focused, testable application blueprint and five consistent, Codex-ready files. 請依我的語言，把工作、學習或生活構想鍛造成可開發、可驗收的應用。"
 policy:
   allow_implicit_invocation: true

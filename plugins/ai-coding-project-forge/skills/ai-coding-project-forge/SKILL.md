@@ -1,15 +1,23 @@
 ---
 name: ai-coding-project-forge
-description: Guide employees and teams through enterprise AI application pre-deployment planning, turning a real workplace problem into a governed, testable blueprint and five consistent, Codex-ready files. English and Traditional Chinese supported. Use for starting an AI application or tool, organizing an existing idea, continuing existing code, or reviewing specifications; do not use for a one-off request that already clearly asks to edit existing code. 引導企業員工完成AI應用開發前置部署鍛造。
+description: Guide anyone through AI application planning, turning a work problem, learning goal, or everyday-life idea into a focused, testable blueprint and five consistent, Codex-ready files. English and Traditional Chinese supported. Use for starting an application or tool, organizing an existing idea, continuing existing code, or reviewing specifications; do not use for a one-off request that already clearly asks to edit existing code. 引導使用者把工作、學習或生活構想鍛造成可開發、可驗收的AI應用。
 ---
 
 # EW AI Coding
 
-## Enterprise AI Application Pre-Deployment Forge / 企業 AI 應用開發前置部署鍛造工具
+## AI Application Project Forge / AI 應用專案鍛造工具
 
-Help employees and teams turn real workplace problems and operating knowledge into specifications that Codex can implement. Keep the visible experience simple and conversational while preserving rigorous product, architecture, acceptance, governance, safety, and handoff checks internally. Do not write code before the application blueprint is approved.
+Help people turn work problems, learning goals, and everyday-life ideas into specifications that Codex can implement. Suitable examples include report automation, study assistants, travel planners, personal organizers, team workflows, and enterprise applications. Keep the visible experience simple and conversational while preserving rigorous product, architecture, acceptance, safety, and handoff checks internally. Apply enterprise governance only when the actual scope requires it. Do not write code before the application blueprint is approved.
 
-“Pre-deployment” here means defining and aligning the business problem, workflow, data conditions, responsibilities, system boundaries, risks, and acceptance evidence before implementation. It does not mean deploying code to infrastructure. 「前置部署」是開發前的問題、流程、資料、權責、邊界、風險與驗收部署，不是伺服器上線。
+“Forge” means defining and aligning the real need, users, workflow, inputs, outputs, responsibilities, system boundaries, risks, and acceptance evidence before implementation. It does not mean deploying code to infrastructure. 「鍛造」是開發前先把真實需求、使用者、流程、輸入輸出、權責、邊界、風險與驗收想清楚，不是把程式部署到伺服器。
+
+## Why AI Coding / 為什麼是 AI Coding
+
+Office helped people create documents, spreadsheets, and presentations faster. AI Coding should help them stop repeating the same rule-based work every day.
+
+Do not frame AI Coding as programming education or as requiring everyone to become a software engineer. Frame it as the ability to identify repetitive or time-consuming work, explain the workflow and decision criteria in natural language, and work with AI to turn that knowledge into a reusable digital tool.
+
+Office 讓人更快完成文件、表格與簡報；AI Coding 要讓人不必每天重複做同樣的事。不要把 AI Coding 描述成全民程式設計教育，而要把它定位為：找出重複耗時的工作，用自然語言說清楚流程與判斷標準，再與 AI 共同把經驗轉化成可重複執行的數位工具。
 
 ## Language / 語言
 
@@ -72,9 +80,9 @@ Start with the simplest viable design and escalate only when the answers require
 
 Do not make beginners answer enterprise questions that do not affect their project.
 
-## Enterprise governance routing / 企業治理分流
+## Proportional governance routing / 分級治理
 
-Classify the intended application before finalizing the blueprint. Do not burden the user with formal governance terminology; explain only the controls that materially affect the real use:
+Classify the intended application before finalizing the blueprint. Personal, learning, and everyday-life tools are first-class use cases, not lesser versions of enterprise software. Do not burden the user with formal governance terminology; explain only the controls that materially affect the real use:
 
 - Personal tool / 個人工具: one user, non-sensitive information, reversible work. User testing may be sufficient.
 - Department tool / 部門工具: shared workflow or team data. Define an owner, permissions, retained history, versioning, and department review.

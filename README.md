@@ -1,42 +1,50 @@
 # EW AI Coding
 
-## Enterprise AI Application Pre-Deployment Forge
+## AI Application Project Forge
 
-**Turn workplace knowledge into a buildable, testable, and governable AI application blueprint—before coding begins.**
+**Turn an idea for work, learning, or everyday life into a buildable and testable application—before coding begins.**
 
-EW AI Coding is a free bilingual skill that helps employees and teams describe a real workplace problem in ordinary language, focus the first useful version, separate software, model, data, and human responsibilities, and generate five consistent files ready for Codex.
+EW AI Coding is a free bilingual skill that helps anyone describe an idea in ordinary language, focus the first useful version, clarify workflow and responsibility, and generate five consistent files ready for Codex. It can be used for report automation, study assistants, AI travel planners, personal organizers, team workflows, and enterprise applications.
 
-**企業 AI 應用開發前置部署鍛造工具**
+**AI 應用專案鍛造工具**
 
-EW AI Coding 是免費的中英雙語技能，引導企業員工以自然語言說出工作問題，在正式開發前完成問題聚焦、流程梳理、資料條件、系統邊界、模型分工、人工核准與驗收標準，最後產生五份可交付 Codex 的一致文件。
+EW AI Coding 是免費的中英雙語技能，引導任何人用自然語言說出工作、學習或生活中的想法，在正式開發前完成需求聚焦、使用流程、輸入輸出、第一版範圍、風險與驗收標準，最後產生五份可交付 Codex 的一致文件。無論是報表自動化、學習助手、AI 旅行助手、個人管理工具、團隊流程或企業應用，都可以從一句話開始。
 
 [Install in ChatGPT / 在 ChatGPT 安裝](https://chatgpt.com/plugins/plugins_6a93c934664c8191baa12828cdb9cc58)
 
-## Why it matters
+## Why AI Coding matters
 
-Office made document, spreadsheet, and presentation creation a basic workplace capability. AI Coding is making small application creation accessible to the people who understand the work best.
+Office helped people create documents, spreadsheets, and presentations faster. AI Coding addresses the next problem: people should not have to repeat the same rule-based work every day.
 
-EW AI Coding does not claim that every employee should become a software engineer. It helps the employee who understands the problem define what should be built, what data is required, what success means, and when a specialist must be involved.
+AI Coding does not mean everyone must become a software engineer. It means identifying repetitive or time-consuming work, explaining the workflow and decision criteria in natural language, and working with AI to turn that knowledge into a reusable digital tool. People define the goal, rules, exceptions, and acceptance criteria; AI helps with implementation and repeated execution.
 
-## 為什麼企業需要
+## 為什麼是 AI Coding
 
-Office 讓文件、試算表與簡報成為員工的基礎能力；AI Coding 正在讓最瞭解工作的人，也能把經驗轉化為小型數位工具。
+Office 時代解決的是「更快完成文件、表格與簡報」；AI Coding 時代要解決的是「不必每天重複做同樣的事」。
 
-EW AI Coding 不是要求每位員工成為軟體工程師，而是協助員工定義應該開發什麼、需要哪些資料、如何驗收，以及何時必須引入模型、領域、資安或軟體專家。
+AI Coding 不是要求每個人都成為軟體工程師，而是讓人找出工作、學習與生活中重複耗時的部分，用自然語言說清楚目標、流程、資料、規則、例外與驗收方式，再與 AI 共同把經驗轉化成可以重複執行的數位工具。
 
-## What “pre-deployment” means
+過去是人去適應軟體；現在是使用者描述真實需求，AI 協助建立適合的工具。Office 讓人具備數位作業能力；AI Coding 讓人具備工具創造與工作自動化能力。
 
-Here, **pre-deployment** does not mean deploying code to a server. It means deploying the business problem, workflow, data conditions, responsibilities, system boundaries, and acceptance criteria into a reliable implementation blueprint before development starts.
+## What “project forging” means
 
-這裡的「前置部署」不是把程式部署到伺服器，而是在開發前，先把企業問題、工作流程、資料條件、權責分工、系統邊界與驗收標準部署到可執行的開發藍圖中。
+Here, **project forging** does not mean deploying code to a server. It means turning the real need, users, workflow, inputs, outputs, responsibilities, boundaries, and acceptance criteria into a reliable implementation blueprint before development starts.
+
+這裡的「專案鍛造」不是把程式部署到伺服器，而是在開發前先把真實需求、使用者、流程、輸入輸出、責任、系統邊界與驗收標準整理成可執行的開發藍圖。
 
 ## Who it is for
 
-- Employees who understand a recurring workplace problem but do not have a software background.
+- Anyone with a useful idea but no software background.
+- Learners building a study assistant, practice tool, or knowledge organizer.
+- Individuals building travel, planning, household, or personal productivity tools.
+- Employees who want to automate recurring workplace tasks.
 - Department AI application champions who want to build useful internal tools with Codex.
 - Teams turning interviews, meeting notes, and operating experience into an implementation-ready blueprint.
 - Builders reviewing whether an existing specification is consistent, safe, and testable.
-- 了解現場痛點、但沒有軟體背景的企業員工。
+- 有實用構想、但沒有軟體背景的一般使用者。
+- 想建立學習助手、練習工具或知識整理工具的學習者。
+- 想建立旅行規劃、生活管理或個人生產力工具的人。
+- 想把重複工作自動化的企業員工。
 - 希望用 Codex 建立部門工具的 AI 應用種子人員。
 - 要把訪談、會議紀錄與工作經驗轉成可施工藍圖的團隊。
 - 需要檢查既有規格是否一致、安全、可驗收的開發者。
@@ -60,9 +68,9 @@ Here, **pre-deployment** does not mean deploying code to a server. It means depl
 | `AGENTS.md` | Rules, commands, stop conditions, and definition of done for Codex / Codex 必須遵守的規則、命令、停止條件與完成定義 |
 | `START_CODEX.md` | The first Codex instruction: inspect and propose a plan before editing / 啟動 Codex 的第一則指令：先檢查與規劃，再開始修改 |
 
-## Enterprise governance boundary
+## Proportional governance boundary
 
-EW AI Coding classifies the application before handoff:
+EW AI Coding supports personal, learning, life, team, and enterprise tools. It increases governance only when the real use requires it:
 
 | Level | Typical scope | Required control |
 |---|---|---|
@@ -81,7 +89,7 @@ EW AI Coding classifies the application before handoff:
 - **Data specialists and infrastructure:** data quality, lineage, replay, integration, and reliable real-world data sources.
 - **Humans:** approval of high-risk, irreversible, or professionally accountable decisions.
 
-EW AI Coding 的目的不是把所有工作交給單一軟體商，而是先讓企業掌握問題、規格與驗收，再精準判斷真正需要哪一類專家。
+EW AI Coding 的目的不是把所有需求交給單一軟體商，而是先讓個人或組織掌握問題、規格與驗收，再精準判斷真正需要哪一類專家。
 
 ## Language behavior
 
@@ -94,8 +102,9 @@ EW AI Coding 的目的不是把所有工作交給單一軟體商，而是先讓�
 
 ## Quick start
 
-- `Help me turn a workplace problem into a focused, testable AI application blueprint for Codex.`
-- `請幫我把企業工作問題聚焦成可開發、可驗收的 AI 應用，再交給 Codex。`
+- `Help me turn an idea for work, learning, or everyday life into a focused, testable application for Codex.`
+- `請幫我把工作、學習或生活中的想法，整理成可開發、可驗收的應用，再交給 Codex。`
+- `Help me build an AI travel planner for a family trip.｜請幫我規劃一個家庭旅行用的 AI 旅行助手。`
 - `Review my existing MD files for Codex readiness.｜請檢查既有 MD 文件是否一致且可交給 Codex 開發。`
 
 ## Design principles
@@ -107,7 +116,7 @@ EW AI Coding 的目的不是把所有工作交給單一軟體商，而是先讓�
 - Build one complete useful workflow before expanding scope.
 - Keep humans in control of high-risk or irreversible actions.
 - Map every first-version module to architecture ownership and acceptance evidence.
-- Preserve enterprise ownership of code, data, and knowledge.
+- Preserve user and organizational ownership of code, data, and knowledge.
 
 ## Installation, support, and policies
 
@@ -136,6 +145,10 @@ For enterprise application development guidance or physical-world and industrial
 免費的 EW AI Coding 流程仍會完整交付五份文件，不要求登記、付費或申請顧問服務。企業若需要顧問進一步指導應用開發，或專案涉及設備、感測器、Edge AI、工業資料採集、生產設備、能源系統與現場整合，完成後才會顯示一則可選擇的延伸提示。
 
 ## Version
+
+`v0.5.0` expands EW AI Coding from an enterprise-first tool into a general AI application forge for work, learning, and everyday life. It adds a clear AI Coding capability statement, new personal and learning use cases, an AI travel planner example, and proportional governance that appears only when the project requires it.
+
+`v0.5.0` 將 EW AI Coding 從企業優先定位擴展為適用於工作、學習與生活的通用 AI 應用鍛造工具；新增 AI Coding 能力主張、個人與學習場景、AI 旅行助手範例，並改為只有在專案需要時才提高治理強度。
 
 `v0.4.0` adds an optional, relevance-based path from a completed software blueprint to enterprise application consulting or physical-world and industrial implementation support. The notice appears only after the complete free five-file handoff and does not collect user information inside the skill.
 
