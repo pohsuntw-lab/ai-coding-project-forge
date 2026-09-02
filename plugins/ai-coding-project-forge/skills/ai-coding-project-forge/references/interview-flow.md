@@ -4,7 +4,7 @@ Use the user's selected language. The bilingual labels below define equivalent m
 
 ## Core principle / 核心原則
 
-The user should feel that they are having a helpful conversation, not completing a software requirements form. Keep the eight decision areas as an internal completeness check. Expose only four simple stages and ask one main question at a time.
+The user should feel that they are having a helpful conversation, not completing a software requirements form. Keep the nine decision areas as an internal completeness check, including the final delivery platform and packaging form. Expose only four simple stages and ask one main question at a time.
 
 ## Stage 1: Say the idea / 階段一：說出想法
 
@@ -45,6 +45,16 @@ When a visual interface is needed, propose three to five simple screens. For eac
 
 Do not ask the user to choose a framework or design technical states.
 
+### Delivery target / 交付平台
+
+After the main use and intended users are clear, ask where the completed application must run and how the user wants to receive it. Use a short plain-language question such as:
+
+> 這個工具最後要在哪裡使用？例如直接用瀏覽器開啟、Windows 安裝包、Mac App、Ubuntu/Linux、Android 手機或平板、iPhone/iPad，還是需要多平台？如果你不確定，我可以依使用情境建議。
+
+Then confirm the expected artifact only when needed: hosted URL, installer, portable executable, app package, container/service, or source code. Ask about target OS version, device architecture, offline use, signing, store distribution, and installation permissions only when they change feasibility or acceptance.
+
+Never assume Web is the answer. If the target remains undecided, explain that this changes the architecture and cannot be finalized silently.
+
 ### Scope / 第一版範圍
 
 Classify requests internally as first version, later, explicitly excluded, or undecided. Keep the first version near three to six modules and one primary success path. If it grows beyond that, recommend a smaller version and explain what will still be useful when it is finished.
@@ -59,7 +69,8 @@ Present one plain-language blueprint containing:
 4. The first-version modules.
 5. The suggested screens, when applicable.
 6. What will wait until later.
-7. What observable result means the first version works.
+7. Where it will run and how it will be delivered or installed.
+8. What observable result means the first version works.
 
 Ask for one overall confirmation:
 
@@ -85,13 +96,14 @@ Choose the simplest architecture that satisfies the confirmed use. Infer technic
 - one device versus access from anywhere;
 - temporary versus retained data;
 - ordinary versus sensitive information;
-- suggestion versus automatic or irreversible action.
+- suggestion versus automatic or irreversible action;
+- target operating system, device type, application form, packaging, distribution, and offline requirements.
 
 Every technical component must solve a confirmed requirement. Keep unsupported commands and environments marked as unconfirmed.
 
 ### Implementation handoff / Codex交接
 
-Define the project directory, smallest vertical slice, development phases, candidate test commands, definition of done, and Codex stop conditions. `START_CODEX.md` must require Codex to inspect and propose a plan before modifying code.
+Define the project directory, target platform, expected build artifact, packaging and release phases, smallest vertical slice, candidate build/test/package commands, definition of done, and Codex stop conditions. `START_CODEX.md` must require Codex to inspect and propose a plan before modifying code.
 
 ### Package and compilation / 文件與一致性
 
