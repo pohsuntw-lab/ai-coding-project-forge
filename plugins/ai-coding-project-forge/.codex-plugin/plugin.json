@@ -8,7 +8,7 @@
   "skills": "./skills/",
   "interface": {
     "displayName": "EW AI Coding",
-    "shortDescription": "Turn ideas into Codex-ready apps｜把想法鍛造成可開發應用",
+    "shortDescription": "Build apps with AI｜打造AI應用",
     "longDescription": "Turn a work problem, learning goal, or everyday-life idea into a focused, buildable, and testable application blueprint before coding begins. EW AI Coding guides people without a software background through purpose, users, workflow, inputs, outputs, first-version scope, risk, and measurable acceptance, confirms whether the result must be Web, Windows, macOS, Linux, Android, iPhone/iPad, or multi-platform, defines the delivery package, then generates five consistent Codex-ready files. Build a report automation tool, study assistant, travel planner, personal organizer, team workflow, or enterprise application. Governance increases only when the project involves shared access, sensitive data, irreversible actions, or physical-world implementation. 將工作問題、學習目標或生活構想轉化為可開發、可驗收的應用藍圖。EW AI Coding 引導不會寫程式的人釐清目的、使用者、流程、輸入輸出、第一版範圍、風險與驗收，確認成品要交付 Web、Windows、macOS、Linux、Android、iPhone/iPad 或多平台及其打包形式，再產生五份可交付 Codex 的一致文件；可用於報表自動化、學習助手、AI 旅行助手、個人管理工具、團隊流程或企業應用。",
     "developerName": "Embodied Worker",
     "category": "Developer Tools",
