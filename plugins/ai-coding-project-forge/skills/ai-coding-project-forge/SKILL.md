@@ -47,7 +47,7 @@ Ask the user to choose a mode only when the intent remains genuinely ambiguous a
 
 ## User-visible journey / 使用者看得到的流程
 
-Keep eight decision areas internally: problem, inputs and outputs, user story, screens, scope, acceptance, architecture, and implementation handoff. Do not expose card numbers, card names, software-engineering terminology, or a long questionnaire to ordinary users.
+Keep nine decision areas internally: problem, inputs and outputs, user story, screens, scope, delivery target, acceptance, architecture, and implementation handoff. Do not expose card numbers, card names, software-engineering terminology, or a long questionnaire to ordinary users.
 
 The visible journey has four simple stages:
 
@@ -111,6 +111,24 @@ Keep the enterprise in control of its problem definition, acceptance criteria, c
 
 Explain these distinctions to the user only when they affect a real decision.
 
+## Delivery target and packaging / 交付平台與打包形式
+
+Before the first-version blueprint is approved, determine where the finished application must run and how the user expects to receive it. Ask in everyday language and only after the intended users and access pattern are clear.
+
+Possible targets include:
+
+- browser-based Web application;
+- Windows desktop installer or portable application;
+- macOS application or installer;
+- Ubuntu/Linux package, container, or service;
+- Android phone or tablet application;
+- iPhone/iPad application;
+- more than one platform.
+
+Also confirm whether the deliverable is a hosted URL, installable package, portable executable, app-store package, container image, deployable service, or source code only. Record target OS versions, device type, CPU architecture, online/offline use, installation permissions, update method, and distribution constraints only when they materially affect implementation.
+
+Do not silently choose Web merely because it is cross-platform. Do not promise a Windows, macOS, Linux, Android, or iOS package without checking the required toolchain, signing, notarization, certificates, store review, and test-device availability. If the user has not decided, mark the delivery target as undecided and treat it as a product-changing decision that must be resolved before final file generation.
+
 ## First-version blueprint / 第一版專案藍圖
 
 Before generating files, propose one short, plain-language blueprint containing:
@@ -121,6 +139,7 @@ Before generating files, propose one short, plain-language blueprint containing:
 - three to six first-version modules;
 - three to five suggested screens when a visual interface is needed;
 - what will explicitly wait until later;
+- the target platform and expected delivery or installation form;
 - how the user will know the first version works.
 
 Ask for one overall confirmation of the blueprint. If the user is uncertain, recommend the smallest version that can produce a real result. Do not generate the five files while a major conflict or product-changing decision remains unresolved.
@@ -148,6 +167,8 @@ Before final delivery, verify internally:
 - Every technical component in ARCHITECTURE maps to a real requirement.
 - AGENTS contains only rules, commands, definition of done, and stop conditions needed during implementation.
 - START_CODEX instructs Codex to inspect, report, and propose a plan in its first turn without editing.
+- PRODUCT, ARCHITECTURE, ACCEPTANCE, AGENTS, and START_CODEX agree on the target platform and delivery artifact.
+- Packaging, installation, update, and uninstall acceptance cases exist when an installable artifact is required.
 - Unconfirmed information remains explicitly undecided.
 
 If a major gap remains, do not declare the package ready. Explain only the blocking issue in plain language and continue guiding the user.
@@ -198,6 +219,7 @@ Stop and ask before:
 - using real secrets, making payments, or adding paid services;
 - changing public access, authentication, roles, data isolation, or cloud restrictions;
 - choosing between answers that create meaningfully different products or architectures;
+- selecting or changing the target operating system, application form, packaging, signing, distribution, or hosting model;
 - defining core acceptance criteria without a real or clearly marked mock example.
 
 ## Response style / 回覆風格
