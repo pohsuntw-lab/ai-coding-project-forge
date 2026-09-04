@@ -1,15 +1,15 @@
 ---
 name: ai-coding-project-forge
-description: Guide anyone through AI application planning, turning a work problem, learning goal, or everyday-life idea into a focused, testable blueprint and five consistent, Codex-ready files. English and Traditional Chinese supported. Use for starting an application or tool, organizing an existing idea, continuing existing code, or reviewing specifications; do not use for a one-off request that already clearly asks to edit existing code. 引導使用者把工作、學習或生活構想鍛造成可開發、可驗收的AI應用。
+description: Guide anyone from an idea through five Codex-ready specifications, GitHub project setup, staged Codex development, testing, preview, acceptance, authorized release, and value verification. English and Traditional Chinese supported. Use for planning a new tool, reviewing specifications, handing work to Codex, or continuing after Codex returns a build; do not use for a one-off request that already clearly asks to edit existing code. 引導使用者從想法、五份規格到 Codex 開發、驗收、發布與價值驗證。
 ---
 
 # EW AI Coding
 
 ## AI Application Project Forge / AI 應用專案鍛造工具
 
-Help people turn work problems, learning goals, and everyday-life ideas into specifications that Codex can implement. Suitable examples include report automation, study assistants, travel planners, personal organizers, team workflows, and enterprise applications. Keep the visible experience simple and conversational while preserving rigorous product, architecture, acceptance, safety, and handoff checks internally. Apply enterprise governance only when the actual scope requires it. Do not write code before the application blueprint is approved.
+Help people turn work problems, learning goals, and everyday-life ideas into applications that can be built, tested, accepted, delivered, and evaluated for real value. Suitable examples include report automation, study assistants, travel planners, personal organizers, team workflows, and enterprise applications. Keep the visible experience simple and conversational while preserving rigorous product, architecture, acceptance, safety, handoff, release, and value checks internally. Apply enterprise governance only when the actual scope requires it. Do not write code before the application blueprint is approved.
 
-“Forge” means defining and aligning the real need, users, workflow, inputs, outputs, responsibilities, system boundaries, risks, and acceptance evidence before implementation. It does not mean deploying code to infrastructure. 「鍛造」是開發前先把真實需求、使用者、流程、輸入輸出、權責、邊界、風險與驗收想清楚，不是把程式部署到伺服器。
+“Forge” begins by defining and aligning the real need, users, workflow, inputs, outputs, responsibilities, system boundaries, risks, and acceptance evidence. The complete journey continues through implementation, testing, user preview, acceptance, authorized release, and value verification. Planning does not itself authorize deployment. 「鍛造」從釐清真實需求、使用者、流程、輸入輸出、權責、邊界、風險與驗收開始，並可繼續引導開發、測試、預覽、驗收、授權發布與價值驗證；完成規劃不代表已取得發布授權。
 
 ## Why AI Coding / 為什麼是 AI Coding
 
@@ -42,6 +42,7 @@ Infer the mode internally from the user's message:
 - Organize an idea / 整理既有想法：read supplied notes, images, or documents, then fill only consequential gaps.
 - Continue existing code / 接續既有程式：inspect the existing project and documentation; never assume it may be rebuilt or overwritten.
 - Specification review / 規格健檢：check the five files for consistency, gaps, and testability without implementation.
+- Continue after Codex / Codex 完工後續作：inspect the returned project, repository state, build and test evidence, then resume from the first incomplete stage instead of restarting the interview.
 
 Ask the user to choose a mode only when the intent remains genuinely ambiguous after reading the supplied context. Use plain-language choices rather than the internal mode names.
 
@@ -49,12 +50,26 @@ Ask the user to choose a mode only when the intent remains genuinely ambiguous a
 
 Keep nine decision areas internally: problem, inputs and outputs, user story, screens, scope, delivery target, acceptance, architecture, and implementation handoff. Do not expose card numbers, card names, software-engineering terminology, or a long questionnaire to ordinary users.
 
-The visible journey has four simple stages:
+For a new idea, begin with four simple planning stages:
 
 1. Say the idea / 說出想法
 2. Work it out together / 一起想清楚
 3. Confirm the first version / 確認第一版
 4. Create the files / 產生文件
+
+After file delivery, offer a clear continuation path. The complete lifecycle is:
+
+1. Idea / 想法
+2. Five specifications / 五份規格
+3. GitHub record / GitHub 建檔
+4. Codex development / Codex 開發
+5. Automated tests / 自動測試
+6. User preview / 使用者預覽
+7. Acceptance fixes / 驗收修正
+8. Authorized release / 授權發布
+9. Value verification / 價值驗證
+
+Do not force all nine stages into one uninterrupted conversation. Resume from project evidence after a long Codex task, a new conversation, or a device change. Do not predict an exact coding duration when the evidence does not support one; report the current state, completed milestone, blocker, and next action instead.
 
 Read [references/interview-flow.md](references/interview-flow.md) when conducting the full interview.
 
@@ -180,11 +195,29 @@ After all five files are complete:
 1. Show the project name and suggested folder name.
 2. List the five files and their status.
 3. Tell the user that `START_CODEX.md` is the first instruction for the new Codex task.
-4. If the environment can create a Codex task, obtain user confirmation before creating it.
-5. Otherwise, explain simply how to place the five files in one folder and start Codex there.
-6. After the complete free handoff has been delivered, apply the optional enterprise and physical-world routing below when it is relevant.
+4. Offer to establish a GitHub record before implementation. If GitHub is connected and the user authorizes repository creation or updates, create or use the correct repository, defaulting to private for confidential, client, or unpublished work. If GitHub is unavailable or declined, use a clearly named local project package and explain that cross-session recovery will be weaker.
+5. If the environment can create a Codex task, obtain user confirmation before creating it.
+6. Otherwise, explain simply how to place the five files in one folder and start Codex there.
+7. Tell the user to invoke EW AI Coding again when Codex returns a runnable build, a repository, a preview, test results, or a blocker. Do not require the user to wait in the same conversation.
 
-Do not extend the beginner journey into GitHub, MCP, deployment, or enterprise setup unless the user explicitly asks or the project actually requires it.
+Keep GitHub and deployment explanations at the level needed for the user's next decision. Do not teach commands, branches, CI/CD, MCP, or infrastructure unless the user asks or must act. External repository creation, source pushes, public access changes, paid services, and production deployment require the corresponding user authorization.
+
+## Continue after Codex / Codex 完工後繼續
+
+When the user returns after Codex work, read [references/delivery-continuation.md](references/delivery-continuation.md). Accept any useful evidence the user can provide: a connected GitHub repository, project folder, ZIP, Codex summary, test output, build artifact, preview URL, screenshots, or a blocker report.
+
+Do not assume “Codex completed” means the application is done. Determine the earliest incomplete lifecycle stage, verify available evidence, and continue from there. Create or update `PROJECT_STATUS.md` in the project when file access is available; this operational status file is not a sixth specification and should record the current stage, completed evidence, failures, blockers, next action, and latest known commit or artifact.
+
+Use completion conditions rather than elapsed time:
+
+- development complete: the required build artifact exists and the application starts in the target environment;
+- automated testing complete: required tests ran and their actual results are recorded;
+- preview complete: the user can access the relevant build and has reviewed the primary workflow;
+- acceptance complete: every required `ACCEPTANCE.md` case is passed or explicitly waived by an authorized person with a reason;
+- release complete: the approved artifact is published or packaged only after explicit release authorization;
+- value verification complete: baseline and post-use evidence show time saved, errors reduced, throughput improved, revenue enabled, or another confirmed outcome. If real usage data does not yet exist, create a measurement plan and mark value as unverified.
+
+When tools are available, perform safe implementation-supporting actions directly within authorization: inspect the repository, run builds and tests, produce previews, update project status, and prepare a release. Pause for product-changing choices, credentials, paid services, sensitive data use, destructive changes, or public/production release. Never claim that a test, preview, publication, installation, or value result occurred without evidence.
 
 ## Enterprise and physical-world routing / 企業顧問與物理世界延伸引導
 
