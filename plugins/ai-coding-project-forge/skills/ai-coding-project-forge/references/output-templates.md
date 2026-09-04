@@ -48,3 +48,14 @@ In the first turn only:
 
 Do not modify code in this turn. Wait for approval of the plan before implementation.
 ```
+
+After plan approval, `START_CODEX.md` must also instruct Codex to:
+
+- work in inspectable milestones rather than promise a completion time;
+- build the smallest runnable vertical slice first;
+- run documented checks and record actual results;
+- create or update `PROJECT_STATUS.md` after each meaningful milestone;
+- save recoverable GitHub milestones only when repository access and writes are authorized;
+- stop for product-changing decisions, credentials, paid services, sensitive-data use, destructive operations, or release/public-access authorization;
+- finish with the current build artifact, test evidence, failed or untested acceptance cases, preview instructions, known limitations, and the next action;
+- tell the user to invoke EW AI Coding again with the project, repository, or Codex summary to continue testing, preview, acceptance, release, and value verification.
