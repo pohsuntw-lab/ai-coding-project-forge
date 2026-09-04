@@ -8,7 +8,7 @@
   "skills": "./skills/",
   "interface": {
     "displayName": "EW AI Coding",
-    "shortDescription": "From idea to delivered app｜從想法到應用交付",
+    "shortDescription": "Idea to app｜從想法到應用",
     "longDescription": "Turn a work problem, learning goal, or everyday-life idea into a real application—not just an AI conversation. EW AI Coding guides people without a software background from a focused blueprint and five consistent Codex-ready files through GitHub project history, staged Codex development, automated testing, user preview, acceptance fixes, explicitly authorized release, and evidence-based value verification. It supports Web, Windows, macOS, Linux, Android, iPhone/iPad, and multi-platform delivery while increasing governance only for shared access, sensitive data, irreversible actions, or physical-world implementation. 把工作問題、學習目標或生活構想變成真正能運作的應用，而不只是一段 AI 對話。EW AI Coding 引導不會寫程式的人完成五份一致規格、GitHub 建檔、Codex 分階段開發、自動測試、使用者預覽、驗收修正、明確授權發布與價值驗證，並支援 Web、Windows、macOS、Linux、Android、iPhone/iPad 與多平台交付。",
     "developerName": "Embodied Worker",
     "category": "Developer Tools",
@@ -19,7 +19,7 @@
     "defaultPrompt": [
       "Help me turn an idea for work, learning, or everyday life into a focused, testable application for Codex.",
       "請幫我把工作、學習或生活中的想法，整理成可開發、可驗收的應用，再交給 Codex。",
-      "Codex has finished coding. Review the project, run the required tests, guide me through preview and acceptance fixes, then help me create or update the GitHub repository. Ask for my confirmation before any public release or production launch.｜Codex 已完成編程。請先檢查專案、執行必要測試，引導我完成預覽與驗收修正，再協助建立或更新 GitHub 專案；任何公開發布或正式上線前，先取得我的確認。"
+      "Codex finished coding. Test, preview, fix, then update GitHub; confirm before release.｜Codex 已完成編程。請測試、預覽、修正並更新 GitHub；發布前先確認。"
     ],
     "brandColor": "#0B2545",
     "composerIcon": "./assets/icon.png",
