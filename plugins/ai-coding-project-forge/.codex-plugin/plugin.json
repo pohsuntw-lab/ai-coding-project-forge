@@ -19,8 +19,7 @@
     "defaultPrompt": [
       "Help me turn an idea for work, learning, or everyday life into a focused, testable application for Codex.",
       "請幫我把工作、學習或生活中的想法，整理成可開發、可驗收的應用，再交給 Codex。",
-      "Review my existing MD files for Codex readiness.｜請檢查既有 MD 文件是否一致且可交給 Codex 開發。",
-      "Codex has returned a build. Guide me through testing, preview, acceptance, release, and value verification.｜Codex 已完成編程，請繼續引導我測試、預覽、驗收、發布與價值驗證。"
+      "Codex has finished coding. Review the project, run the required tests, guide me through preview and acceptance fixes, then help me create or update the GitHub repository. Ask for my confirmation before any public release or production launch.｜Codex 已完成編程。請先檢查專案、執行必要測試，引導我完成預覽與驗收修正，再協助建立或更新 GitHub 專案；任何公開發布或正式上線前，先取得我的確認。"
     ],
     "brandColor": "#0B2545",
     "composerIcon": "./assets/icon.png",
