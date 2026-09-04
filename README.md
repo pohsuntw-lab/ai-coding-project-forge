@@ -117,7 +117,7 @@ EW AI Coding 的目的不是把所有需求交給單一軟體商，而是先讓�
 - `Help me turn an idea for work, learning, or everyday life into a focused, testable application for Codex.`
 - `請幫我把工作、學習或生活中的想法，整理成可開發、可驗收的應用，再交給 Codex。`
 - `Help me build an AI travel planner for a family trip.｜請幫我規劃一個家庭旅行用的 AI 旅行助手。`
-- `Codex has finished coding. Review the project, run the required tests, guide me through preview and acceptance fixes, then help me create or update the GitHub repository. Ask for my confirmation before any public release or production launch.｜Codex 已完成編程。請先檢查專案、執行必要測試，引導我完成預覽與驗收修正，再協助建立或更新 GitHub 專案；任何公開發布或正式上線前，先取得我的確認。`
+- `Codex finished coding. Test, preview, fix, then update GitHub; confirm before release.｜Codex 已完成編程。請測試、預覽、修正並更新 GitHub；發布前先確認。`
 
 ## Design principles
 
