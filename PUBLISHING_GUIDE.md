@@ -16,8 +16,8 @@
 
 ### 建議發布順序
 
-1. 用至少三個真實專案測試繁中與英文訪談及五份文件。
-2. 驗證文件一致性、安全停止條件與語言切換。
+1. 用至少三個真實專案測試繁中與英文訪談、五份文件及 Codex 完工後續作。
+2. 驗證文件一致性、GitHub 建檔、測試與預覽證據、發布授權、價值驗證、安全停止條件與語言切換。
 3. 更新 GitHub 儲存庫與版本號。
 4. 提交 OpenAI 插件審核。
 5. 審核通過並公開後，提供公開頁連結給學生。
@@ -38,8 +38,8 @@
 
 ### Recommended publishing sequence
 
-1. Test the Traditional Chinese and English interviews and all five outputs with at least three real projects.
-2. Verify document consistency, safety stop conditions, and language switching.
+1. Test the Traditional Chinese and English interviews, all five outputs, and post-Codex continuation with at least three real projects.
+2. Verify document consistency, GitHub setup, test and preview evidence, release authorization, value verification, safety stop conditions, and language switching.
 3. Update the GitHub repository and version.
 4. Submit the plugin for OpenAI review.
 5. After approval and publication, share the public directory page with students.

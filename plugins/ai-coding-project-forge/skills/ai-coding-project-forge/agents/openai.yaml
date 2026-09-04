@@ -1,9 +1,9 @@
 interface:
   display_name: "EW AI Coding"
-  short_description: "Turn ideas into Codex-ready apps｜把想法鍛造成可開發應用"
+  short_description: "From idea to delivered app｜從想法到應用交付"
   icon_small: "./assets/icon.png"
   icon_large: "./assets/icon.png"
   brand_color: "#0B2545"
-  default_prompt: "Use $ai-coding-project-forge in my language to turn a work, learning, or everyday-life idea into a focused, testable application blueprint and five consistent, Codex-ready files. 請依我的語言，把工作、學習或生活構想鍛造成可開發、可驗收的應用。"
+  default_prompt: "Use $ai-coding-project-forge in my language to guide this project from idea and five Codex-ready specifications through GitHub, development, testing, preview, acceptance, authorized release, and value verification. 請依我的語言，引導專案從想法與五份規格走到開發、驗收、授權發布與價值驗證。"
 policy:
   allow_implicit_invocation: true

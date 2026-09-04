@@ -4,7 +4,7 @@ Use the user's selected language. The bilingual labels below define equivalent m
 
 ## Core principle / 核心原則
 
-The user should feel that they are having a helpful conversation, not completing a software requirements form. Keep the nine decision areas as an internal completeness check, including the final delivery platform and packaging form. Expose only four simple stages and ask one main question at a time.
+The user should feel that they are having a helpful conversation, not completing a software requirements form. Keep the nine decision areas as an internal completeness check, including the final delivery platform and packaging form. Expose only four simple planning stages and ask one main question at a time. After the five files are delivered, offer the continuation path through GitHub, Codex development, testing, preview, acceptance, authorized release, and value verification without forcing those stages into the initial interview.
 
 ## Stage 1: Say the idea / 階段一：說出想法
 
@@ -103,7 +103,7 @@ Every technical component must solve a confirmed requirement. Keep unsupported c
 
 ### Implementation handoff / Codex交接
 
-Define the project directory, target platform, expected build artifact, packaging and release phases, smallest vertical slice, candidate build/test/package commands, definition of done, and Codex stop conditions. `START_CODEX.md` must require Codex to inspect and propose a plan before modifying code.
+Define the project directory, target platform, expected build artifact, packaging and release phases, smallest vertical slice, candidate build/test/package commands, definition of done, and Codex stop conditions. `START_CODEX.md` must require Codex to inspect and propose a plan before modifying code, then work in recoverable milestones, update `PROJECT_STATUS.md`, run tests, and return preview and acceptance evidence for the user's next EW AI Coding continuation.
 
 ### Package and compilation / 文件與一致性
 

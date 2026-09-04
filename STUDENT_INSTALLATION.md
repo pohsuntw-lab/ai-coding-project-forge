@@ -19,7 +19,7 @@
 - `AGENTS.md`
 - `START_CODEX.md`
 
-將五份文件放在同一個專案資料夾，再用 Codex 開啟該資料夾並提交 `START_CODEX.md` 的內容。
+將五份文件放在同一個專案資料夾，再用 Codex 開啟該資料夾並提交 `START_CODEX.md` 的內容。Codex 返回可運行版本、GitHub 專案、預覽、測試結果或阻塞說明後，再次輸入 `@EW AI Coding` 並附上可用的專案證據。外掛會從目前進度繼續引導自動測試、使用者預覽、驗收修正、授權發布與價值驗證，不必重新回答需求訪談。
 
 ## English
 
@@ -40,4 +40,4 @@
 - `AGENTS.md`
 - `START_CODEX.md`
 
-Place all five files in the same project folder, open that folder with Codex, and submit the contents of `START_CODEX.md` as the first task.
+Place all five files in the same project folder, open that folder with Codex, and submit the contents of `START_CODEX.md` as the first task. When Codex returns a runnable build, GitHub repository, preview, test results, or blocker report, invoke `@EW AI Coding` again and provide the available project evidence. The plugin resumes from the current stage and guides testing, user preview, acceptance fixes, authorized release, and value verification without repeating the original interview.
