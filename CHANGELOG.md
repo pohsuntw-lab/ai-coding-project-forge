@@ -12,6 +12,7 @@
 - Preserved the complete continuation path: GitHub → Codex → automated tests → preview → acceptance → authorized release → value verification.
 - Updated three ChatGPT conversation starters.
 - Updated silver Embodied Worker branding and synchronized both plugin and skill icons.
+- Replaced the damaged icon payload with the last verified silver source image and adjusted the interface accent for directory contrast compliance.
 - Updated `plugin.json`, `SKILL.md`, `agents/openai.yaml`, `README.md`, `STUDENT_INSTALLATION.md`, `PUBLISHING_GUIDE.md`, and interview flow.
 
 ## v0.7.0
