@@ -2,13 +2,13 @@
 
 ## AI Application Project Forge
 
-**Turn an idea for work, learning, or everyday life into an application that can be built, tested, accepted, delivered, and verified for real value.**
+**Turn an idea, SOP, workflow, or repetitive task into an application that can be built, tested, accepted, delivered, and verified for real value.**
 
-EW AI Coding is a free bilingual skill that helps anyone describe an idea in ordinary language, create five consistent files ready for Codex, establish recoverable GitHub history, and continue after coding through automated tests, user preview, acceptance fixes, explicitly authorized release, and evidence-based value verification. It can be used for report automation, study assistants, AI travel planners, personal organizers, team workflows, and enterprise applications.
+EW AI Coding is a free bilingual skill that helps anyone move beyond AI chat. Users can start from an everyday-life idea, learning goal, work problem, SOP, workflow diagram, or repetitive task. EW AI Coding first helps identify what is worth turning into an application, then guides the user one question at a time to create five consistent files ready for Codex, establish recoverable GitHub history, and continue after coding through automated tests, user preview, acceptance fixes, explicitly authorized release, and evidence-based value verification. It can be used for report automation, study assistants, AI travel planners, personal organizers, team workflows, and enterprise applications.
 
 **AI 應用專案鍛造工具**
 
-EW AI Coding 是免費的中英雙語技能，引導任何人用自然語言說出工作、學習或生活中的想法，產生五份可交付 Codex 的一致規格，建立可恢復的 GitHub 開發紀錄，並在 Codex 完成編程後繼續引導自動測試、使用者預覽、驗收修正、明確授權發布與價值驗證。無論是報表自動化、學習助手、AI 旅行助手、個人管理工具、團隊流程或企業應用，都可以從一句話開始，直到形成真正可用的數位工具。
+EW AI Coding 是免費的中英雙語技能，目的不是讓使用者停留在與 AI 聊天，而是把想法真正推進成可執行的應用。使用者可以從生活構想、學習需求、工作問題、SOP、流程圖或每天重複做的事情開始；EW AI Coding 會先協助判斷哪些工作值得做成應用，再透過一次一題的自然對話整理需求，產生五份可交付 Codex 的一致規格，建立可恢復的 GitHub 開發紀錄，並在 Codex 完成編程後繼續引導自動測試、使用者預覽、驗收修正、明確授權發布與價值驗證。
 
 [Install in ChatGPT / 在 ChatGPT 安裝](https://chatgpt.com/plugins/plugins_6a93c934664c8191baa12828cdb9cc58)
 
@@ -38,6 +38,7 @@ Here, **project forging** does not mean deploying code to a server. It means tur
 - Learners building a study assistant, practice tool, or knowledge organizer.
 - Individuals building travel, planning, household, or personal productivity tools.
 - Employees who want to automate recurring workplace tasks.
+- People with an SOP, procedure, workflow diagram, or repeated task who want to know whether it is worth turning into an application.
 - Department AI application champions who want to build useful internal tools with Codex.
 - Teams turning interviews, meeting notes, and operating experience into an implementation-ready blueprint.
 - Builders reviewing whether an existing specification is consistent, safe, and testable.
@@ -45,26 +46,28 @@ Here, **project forging** does not mean deploying code to a server. It means tur
 - 想建立學習助手、練習工具或知識整理工具的學習者。
 - 想建立旅行規劃、生活管理或個人生產力工具的人。
 - 想把重複工作自動化的企業員工。
+- 已有 SOP、程序書、流程圖或重複工作，希望先判斷是否值得做成應用的人。
 - 希望用 Codex 建立部門工具的 AI 應用種子人員。
 - 要把訪談、會議紀錄與工作經驗轉成可施工藍圖的團隊。
 - 需要檢查既有規格是否一致、安全、可驗收的開發者。
 
-## Four planning stages, one complete lifecycle
+## Five planning stages, one complete lifecycle
 
-1. **Say the problem** — Describe the work in ordinary language.
-2. **Work it out together** — Clarify inputs, results, workflow, data, exceptions, and responsibility.
-3. **Confirm the first version** — Approve one small, complete, useful application blueprint.
-4. **Create the files** — Generate one consistent Codex handoff package.
+1. **Describe the idea or workflow** — Start from an idea, SOP, workflow, or repetitive task in ordinary language.
+2. **Find the worthwhile application** — When workflow evidence exists, identify suitable, prerequisite-dependent, human-assist-only, and unsuitable automation opportunities.
+3. **Work it out together** — Clarify inputs, outputs, rules, exceptions, users, responsibility, safety, and delivery target one question at a time.
+4. **Confirm the first version** — Approve one small, complete, useful application blueprint.
+5. **Create the files** — Generate one consistent Codex handoff package.
 
-四段自然規劃對話：說出問題、一起想清楚、確認第一版、產生文件。使用者不必先學會 PRD、架構、API 或程式語言。
+五段自然規劃對話：說出想法或提供流程、找出值得做的應用、一次一題想清楚、確認第一版、產生文件。使用者不必先學會 PRD、架構、API 或程式語言。
 
 After the five-file handoff, invoke EW AI Coding again with the Codex result, project folder, ZIP, repository, preview, test output, or blocker. It identifies the first incomplete stage and continues without restarting the interview:
 
-**Idea → five specifications → GitHub record → Codex development → automated tests → user preview → acceptance fixes → authorized release → value verification**
+**Idea/workflow → opportunity analysis when relevant → five specifications → GitHub record → Codex development → automated tests → user preview → acceptance fixes → authorized release → value verification**
 
 五份文件交接後，使用者可帶著 Codex 結果、專案資料夾、ZIP、GitHub 專案、預覽、測試輸出或阻塞狀況再次叫用 EW AI Coding。系統會從第一個未完成階段繼續，不必重新訪談：
 
-**想法 → 五份規格 → GitHub 建檔 → Codex 開發 → 自動測試 → 使用者預覽 → 驗收修正 → 授權發布 → 價值驗證**
+**想法／流程 → 必要時進行應用機會分析 → 五份規格 → GitHub 建檔 → Codex 開發 → 自動測試 → 使用者預覽 → 驗收修正 → 授權發布 → 價值驗證**
 
 EW AI Coding does not guess how long coding will take. It manages evidence-based states: what is complete, what failed, what is blocked, and what action comes next. Publication remains separate from development and always requires explicit authorization.
 
@@ -114,16 +117,18 @@ EW AI Coding 的目的不是把所有需求交給單一軟體商，而是先讓�
 
 ## Quick start
 
-- `Help me turn an idea for work, learning, or everyday life into a focused, testable application for Codex.`
+- `Help me turn an idea or repeated task into an app, step by step. / 幫我把想法或重複工作一步一步做成應用。`
+- `請幫我分析這份 SOP／流程，看看哪些工作適合做成應用。`
 - `請幫我把工作、學習或生活中的想法，整理成可開發、可驗收的應用，再交給 Codex。`
-- `Help me build an AI travel planner for a family trip.｜請幫我規劃一個家庭旅行用的 AI 旅行助手。`
-- `Codex finished coding. Test, preview, fix, then update GitHub; confirm before release.｜Codex 已完成編程。請測試、預覽、修正並更新 GitHub；發布前先確認。`
+- `Codex 已完成開發，請接著帶我完成 GitHub、測試、預覽、驗收與授權發布。`
 
 ## Design principles
 
 - Simple for employees; rigorous for implementation.
 - Define the problem before choosing a model or technical stack.
+- Analyze a supplied SOP or workflow before assuming the whole process should be automated.
 - No coding before the first-version blueprint is approved.
+- Ask one main question per turn.
 - Do not invent data, laws, business rules, users, departments, or environments.
 - Build one complete useful workflow before expanding scope.
 - Keep humans in control of high-risk or irreversible actions.
@@ -164,6 +169,10 @@ Before generating the five files, EW AI Coding confirms where the finished appli
 
 ## Version
 
+`v0.8.0` expands EW AI Coding from idea-to-build guidance into application opportunity discovery. Users can now start from an idea, SOP, workflow diagram, procedure, interview notes, or repetitive task. When workflow evidence exists, EW AI Coding first identifies suitable automation opportunities, tasks that need prerequisites, AI-assist-only work, and work that should remain manual. It then guides the selected opportunity one question at a time into the same five Codex-ready specifications and continues through GitHub, Codex development, automated testing, preview, acceptance, explicit release authorization, and value verification. Personal and everyday-life applications remain first-class; enterprise governance appears only when the actual scope requires it. The public brand remains **EW AI Coding**.
+
+`v0.8.0` 將 EW AI Coding 從「把想法整理成可開發規格」進一步升級為「先發現值得做的應用，再完成開發閉環」。使用者可以從想法、SOP、流程圖、程序書、訪談紀錄或重複工作開始；當有流程資料時，系統會先區分「適合現在做」、「補足條件後適合」、「只適合 AI 輔助」與「不適合自動化」的工作，再由使用者選擇值得推進的項目，透過一次一題的引導產生五份 Codex 規格，並接續 GitHub、Codex 開發、自動測試、預覽、驗收、明確授權發布與價值驗證。一般民眾與企業共用同一核心流程，只有實際需要時才提高企業治理強度；對外品牌持續使用 **EW AI Coding**。
+
 `v0.7.0` extends EW AI Coding beyond the five-file handoff. Users can return after Codex work and continue from repository recovery through automated testing, preview, acceptance fixes, explicit release authorization, and value verification. It adds evidence-based lifecycle states, `PROJECT_STATUS.md`, optional `VALUE_REPORT.md`, GitHub privacy defaults, and a strict separation between development completion and production release.
 
 `v0.7.0` 將 EW AI Coding 從五份文件交接延伸為完整閉環。使用者可在 Codex 編程後再次叫用，從專案恢復、自動測試、預覽、驗收修正，繼續到明確授權發布與價值驗證；新增以證據判斷的專案狀態、`PROJECT_STATUS.md`、可選的 `VALUE_REPORT.md`、GitHub 隱私預設，以及開發完成與正式發布分離機制。
@@ -171,7 +180,6 @@ Before generating the five files, EW AI Coding confirms where the finished appli
 `v0.6.0` adds mandatory delivery-target discovery. The interview now distinguishes Web, Windows, macOS, Ubuntu/Linux, Android, iPhone/iPad, and multi-platform delivery; records the expected package; and adds build, signing, installation, update, rollback, and uninstall requirements to the five-file handoff.
 
 `v0.6.0` 新增必要的交付平台訪談，區分 Web、Windows、macOS、Ubuntu/Linux、Android、iPhone/iPad 與多平台成品；明確記錄交付包，並把建置、簽章、安裝、更新、回滾與卸載要求寫入五份文件。
-
 
 `v0.5.0` expands EW AI Coding from an enterprise-first tool into a general AI application forge for work, learning, and everyday life. It adds a clear AI Coding capability statement, new personal and learning use cases, an AI travel planner example, and proportional governance that appears only when the project requires it.
 
