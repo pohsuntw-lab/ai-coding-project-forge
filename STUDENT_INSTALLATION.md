@@ -1,4 +1,4 @@
-# EW AI Coding v0.8.0 學員安裝與使用說明 / Student Installation and Usage
+# EW AI Coding v0.8.1 學員安裝與使用說明 / Student Installation and Usage
 
 ## 繁體中文
 
@@ -19,13 +19,13 @@
 - 描述每天重複做的工作；
 - 帶回 Codex 已完成的專案、GitHub、測試結果、預覽或錯誤訊息。
 
-EW AI Coding v0.8.0 會依情況先判斷哪些事情值得做成應用，再一次只問一個主要問題，逐步整理需求。
+EW AI Coding v0.8.1 會依情況先判斷哪些事情值得做成應用，再一次只問一個主要問題，逐步整理需求。
 
 ### 三個快速入口
 
-- `幫我把想法或重複工作一步一步做成應用。`
-- `請幫我把工作、學習或生活中的想法，整理成可開發、可驗收的應用，再交給 Codex。`
-- `Codex 已完成開發，請接著帶我完成 GitHub、測試、預覽、驗收與授權發布。`
+- `I'm an individual user. I want to... / 我是一般用戶，我想要……`
+- `I'm a business user. I want to... / 我是企業用戶，我想要……`
+- `I've finished coding. What should I do next? / 我已完成 Coding，下一步該怎麼做？`
 
 ### 你會得到的五份文件
 
@@ -58,13 +58,13 @@ You do not need programming, PRD, architecture, or prompt-engineering knowledge.
 - describe repetitive work you want to reduce;
 - return with a Codex project, GitHub repository, test output, preview, or blocker.
 
-EW AI Coding v0.8.0 first identifies what is worth turning into an application when necessary, then guides the project one main question at a time.
+EW AI Coding v0.8.1 first identifies what is worth turning into an application when necessary, then guides the project one main question at a time.
 
 ### Quick starters
 
-- `Help me turn an idea or repeated task into an app, step by step.`
-- `Help me turn a work, learning, or everyday-life idea into a buildable, testable application for Codex.`
-- `Codex finished development. Continue with GitHub, testing, preview, acceptance, and authorized release.`
+- `I'm an individual user. I want to... / 我是一般用戶，我想要……`
+- `I'm a business user. I want to... / 我是企業用戶，我想要……`
+- `I've finished coding. What should I do next? / 我已完成 Coding，下一步該怎麼做？`
 
 ### Five deliverables
 

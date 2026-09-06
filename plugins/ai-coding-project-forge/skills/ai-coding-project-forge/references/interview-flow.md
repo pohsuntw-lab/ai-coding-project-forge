@@ -1,4 +1,4 @@
-# EW AI Coding v0.8.0 interview flow / v0.8.0 自然引導流程
+# EW AI Coding v0.8.1 interview flow / v0.8.1 自然引導流程
 
 Use the user's selected language. Do not show both languages unless the user asks for bilingual output.
 

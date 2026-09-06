@@ -1,5 +1,12 @@
 # Changelog
 
+## v0.8.1 — 2026-09-06
+
+- Made all three ChatGPT conversation starters bilingual in English and Traditional Chinese.
+- Kept every complete bilingual starter within the 128-character platform limit.
+- Reframed the three routes as individual user, business user, and post-coding continuation.
+- Added explicit Skill routing when the user selects starter 1, 2, or 3.
+
 ## v0.8.0 — 2026-09-06
 
 - Kept the public brand name **EW AI Coding**.

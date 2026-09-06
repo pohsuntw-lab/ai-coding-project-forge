@@ -1,6 +1,6 @@
 {
   "name": "ai-coding-project-forge",
-  "version": "0.8.0",
+  "version": "0.8.1",
   "description": "Bilingual EW AI Coding application forge that starts from an idea, SOP, workflow, or repetitive task, analyzes worthwhile opportunities, creates five Codex-ready specifications, and guides users through GitHub, Codex development, testing, preview, acceptance, authorized release, and value verification.",
   "author": {
     "name": "Embodied Worker"
@@ -17,9 +17,9 @@
       "Write"
     ],
     "defaultPrompt": [
-      "Help me turn an idea or repeated task into an app, step by step. / 幫我把想法或重複工作一步一步做成應用。",
-      "請幫我把工作、學習或生活中的想法，整理成可開發、可驗收的應用，再交給 Codex。",
-      "Codex 已完成開發，請接著帶我完成 GitHub、測試、預覽、驗收與授權發布。"
+      "I'm an individual user. I want to... / 我是一般用戶，我想要……",
+      "I'm a business user. I want to... / 我是企業用戶，我想要……",
+      "I've finished coding. What should I do next? / 我已完成 Coding，下一步該怎麼做？"
     ],
     "brandColor": "#5F6368",
     "composerIcon": "./assets/icon.png",

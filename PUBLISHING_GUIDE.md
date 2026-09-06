@@ -1,10 +1,10 @@
-# EW AI Coding v0.8.0 發佈說明 / Publishing Guide
+# EW AI Coding v0.8.1 發佈說明 / Publishing Guide
 
 ## 繁體中文
 
-### v0.8.0 這次要驗證什麼
+### v0.8.1 這次要驗證什麼
 
-EW AI Coding v0.8.0 保留 **EW AI Coding** 品牌名稱，但能力從「想法整理」升級為完整的 AI 應用鍛造流程。除了工作、學習與生活想法，也支援 SOP、流程圖、訪談紀錄與重複工作的應用機會分析。
+EW AI Coding v0.8.1 修正三張提示卡的語言一致性；每張卡都同時提供英文與繁體中文，並保持在 128 字元限制內。v0.8.0 的完整 AI 應用鍛造能力維持不變。
 
 公開前至少完成以下驗證：
 
@@ -22,20 +22,20 @@ EW AI Coding v0.8.0 保留 **EW AI Coding** 品牌名稱，但能力從「想法
 
 ChatGPT 入口維持三張卡，不把所有功能塞進卡片。建議文案：
 
-1. `Help me turn an idea or repeated task into an app, step by step. / 幫我把想法或重複工作一步一步做成應用。`
-2. `請幫我把工作、學習或生活中的想法，整理成可開發、可驗收的應用，再交給 Codex。`
-3. `Codex 已完成開發，請接著帶我完成 GitHub、測試、預覽、驗收與授權發布。`
+1. `I'm an individual user. I want to... / 我是一般用戶，我想要……`
+2. `I'm a business user. I want to... / 我是企業用戶，我想要……`
+3. `I've finished coding. What should I do next? / 我已完成 Coding，下一步該怎麼做？`
 
 ### 品牌與圖示
 
 - 對外主名稱固定為 **EW AI Coding**。
 - 副標可使用：`AI Application Project Forge / AI 應用專案鍛造工具`。
-- v0.8.0 採用銀色系 Embodied Worker 大象商標。
+- v0.8.1 沿用銀色系 Embodied Worker 大象商標。
 - GitHub `plugin.json` 與 ChatGPT 後台顯示名稱、版本、提示卡與圖示應保持一致。
 
 ### 建議發布順序
 
-1. 確認 GitHub `SKILL.md` 與 `plugin.json` 已為 v0.8.0。
+1. 確認 GitHub `SKILL.md` 與 `plugin.json` 已為 v0.8.1。
 2. 將新版銀色 Embodied Worker 圖示替換 `assets/icon.png`。
 3. 用至少三個真實案例測試：一般想法、SOP／流程分析、Codex 完工後續作。
 4. 確認五份文件一致性及安全停止條件。
@@ -45,9 +45,9 @@ ChatGPT 入口維持三張卡，不把所有功能塞進卡片。建議文案：
 
 ## English
 
-### What v0.8.0 must validate
+### What v0.8.1 must validate
 
-EW AI Coding v0.8.0 keeps the **EW AI Coding** brand while expanding from idea structuring into a complete AI application forging workflow. It supports ordinary work, learning, and everyday-life ideas as well as SOPs, workflow diagrams, interview notes, and repetitive-task opportunity analysis.
+EW AI Coding v0.8.1 fixes language parity across the three starter cards. Every card now includes both English and Traditional Chinese and remains within the 128-character limit. The complete v0.8.0 application-forging workflow remains unchanged.
 
 Before publication, validate at least these cases:
 
@@ -63,7 +63,7 @@ Before publication, validate at least these cases:
 
 ### Publishing sequence
 
-1. Confirm GitHub `SKILL.md` and `plugin.json` are v0.8.0.
+1. Confirm GitHub `SKILL.md` and `plugin.json` are v0.8.1.
 2. Replace `assets/icon.png` with the approved silver Embodied Worker elephant mark.
 3. Test at least three real cases: ordinary idea, SOP/workflow analysis, and post-Codex continuation.
 4. Verify five-file consistency and safety stop conditions.

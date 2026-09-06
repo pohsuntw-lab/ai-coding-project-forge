@@ -117,10 +117,10 @@ EW AI Coding 的目的不是把所有需求交給單一軟體商，而是先讓�
 
 ## Quick start
 
-- `Help me turn an idea or repeated task into an app, step by step. / 幫我把想法或重複工作一步一步做成應用。`
+- `I'm an individual user. I want to... / 我是一般用戶，我想要……`
 - `請幫我分析這份 SOP／流程，看看哪些工作適合做成應用。`
-- `請幫我把工作、學習或生活中的想法，整理成可開發、可驗收的應用，再交給 Codex。`
-- `Codex 已完成開發，請接著帶我完成 GitHub、測試、預覽、驗收與授權發布。`
+- `I'm a business user. I want to... / 我是企業用戶，我想要……`
+- `I've finished coding. What should I do next? / 我已完成 Coding，下一步該怎麼做？`
 
 ## Design principles
 
@@ -168,6 +168,10 @@ Before generating the five files, EW AI Coding confirms where the finished appli
 在產生五份文件前，EW AI Coding 會確認應用最終在哪裡使用，以及要交付網址、Windows 安裝包或可攜版、Mac App、Ubuntu/Linux 套件或服務、Android 手機／平板 App、iPhone／iPad App、多平台版本、容器或原始碼。打包、簽章、安裝、更新與卸載要求會同步寫入架構與驗收文件。
 
 ## Version
+
+`v0.8.1` makes all three ChatGPT conversation starters bilingual in English and Traditional Chinese while keeping each complete card within the 128-character platform limit. The three routes are individual user, business user, and post-coding continuation; selecting 1, 2, or 3 activates the corresponding guided Skill flow.
+
+`v0.8.1` 將三張 ChatGPT 提示卡全部改為英文與繁體中文並列，且每張完整雙語文案均不超過平台 128 字元限制；三個入口分別對應一般用戶、企業用戶與 Coding 完工後續作，選擇 1、2、3 後由 Skill 進入相應引導流程。
 
 `v0.8.0` expands EW AI Coding from idea-to-build guidance into application opportunity discovery. Users can now start from an idea, SOP, workflow diagram, procedure, interview notes, or repetitive task. When workflow evidence exists, EW AI Coding first identifies suitable automation opportunities, tasks that need prerequisites, AI-assist-only work, and work that should remain manual. It then guides the selected opportunity one question at a time into the same five Codex-ready specifications and continues through GitHub, Codex development, automated testing, preview, acceptance, explicit release authorization, and value verification. Personal and everyday-life applications remain first-class; enterprise governance appears only when the actual scope requires it. The public brand remains **EW AI Coding**.
 
