@@ -1,76 +1,118 @@
-# Natural conditional interview flow / 自然條件式訪談流程
+# EW AI Coding v0.8.0 interview flow / v0.8.0 自然引導流程
 
-Use the user's selected language. The bilingual labels below define equivalent meaning; do not show both languages unless the user asks for bilingual output.
+Use the user's selected language. Do not show both languages unless the user asks for bilingual output.
 
 ## Core principle / 核心原則
 
-The user should feel that they are having a helpful conversation, not completing a software requirements form. Keep the nine decision areas as an internal completeness check, including the final delivery platform and packaging form. Expose only four simple planning stages and ask one main question at a time. After the five files are delivered, offer the continuation path through GitHub, Codex development, testing, preview, acceptance, authorized release, and value verification without forcing those stages into the initial interview.
+The user should feel that they are having a useful conversation, not filling out a software requirements form. Ask one main question per turn. Translate ordinary language into professional product, architecture, acceptance, and implementation structure internally.
 
-## Stage 1: Say the idea / 階段一：說出想法
+EW AI Coding is general-purpose. Personal, learning, travel, household, creator, work, team, and enterprise ideas all use the same core flow. Add enterprise governance only when the actual scope requires it.
 
-Start with:
+## Stage 0: Identify the starting evidence / 階段零：判斷使用者從哪裡開始
 
-> 你想做一個什麼工具？請像平常聊天一樣告訴我，不完整也沒關係，我會陪你一步一步整理。
+Accept any useful starting point:
 
-> What tool would you like to make? Tell me as you normally would in a chat. It does not need to be complete; I will help you work it out step by step.
+- a new idea;
+- a problem the user wants to solve;
+- an SOP, procedure, workflow diagram, screenshot, or document;
+- interview notes or meeting notes;
+- a repetitive task;
+- existing specifications;
+- existing code;
+- a Codex result, repository, preview, test output, or blocker.
 
-From the answer, identify internally:
+Do not force the user to choose a technical mode first. Infer the route internally.
 
-- who has the problem;
-- what is difficult today;
-- how it is handled now;
-- what better result the user wants.
+For a blank start, ask:
 
-Do not require all four facts in the first answer. Ask only for the most consequential missing fact next.
+> 你現在有什麼想法、流程或重複工作想改善？直接像平常聊天一樣告訴我，不完整也沒關係。
 
-## Stage 2: Work it out together / 階段二：一起想清楚
+> What idea, workflow, or repetitive task would you like to improve? Tell me naturally; it does not need to be complete.
 
-Cover these internal decision areas gradually without naming them:
+## Stage 1: Opportunity discovery / 階段一：找出值得做的應用
 
-### Inputs and results / 輸入與結果
+When the user supplies an SOP, workflow, interview notes, or repetitive work, do not immediately turn the whole thing into software. First reconstruct the current work from the evidence.
 
-Ask what the person will provide first: answer questions, type text, upload a file, select an option, or use existing data. Then ask what useful result the tool should produce.
+Identify only what the evidence supports:
 
-Request one de-identified real example when it will materially improve the specification. If none exists, offer to define a simple mock example and label it unvalidated. Ask about normal, error, and boundary behavior only when each becomes relevant; do not present them as a four-part form.
+- trigger and goal;
+- people or roles involved;
+- inputs and source data;
+- main steps and handoffs;
+- repeated copying, checking, formatting, searching, reporting, reminders, or reconciliation;
+- deterministic rules;
+- professional or contextual judgment;
+- outputs and records;
+- exceptions;
+- human approval points;
+- irreversible or high-risk actions.
 
-### Main use / 主要操作
+Then identify candidate application opportunities and classify them as:
 
-Reconstruct one primary path internally: enter tool → provide input → process → review → save/export. Describe it back in everyday language and ask whether it matches real life.
+- Suitable now / 適合現在做
+- Suitable after prerequisites / 補足條件後適合
+- Human-assist only / 只適合 AI 輔助
+- Not suitable / 不適合自動化
+
+For each meaningful candidate, explain briefly:
+
+1. what problem it removes;
+2. what could be handled by deterministic code, database/search, AI, or human approval;
+3. required inputs or integrations;
+4. major risk or missing prerequisite;
+5. the smallest useful first version;
+6. how success could be verified.
+
+Rank candidates only when there is enough evidence. Prefer high-frequency, rule-clear, measurable, reversible work with accessible inputs. Never invent ROI, labor savings, implementation duration, or data availability.
+
+If the user started with a clear personal or everyday-life idea, do not force a formal opportunity report. Move directly into clarification.
+
+## Stage 2: Work it out one question at a time / 階段二：一次一題把需求想清楚
+
+Cover these decision areas gradually without naming them as a questionnaire:
+
+### Problem and intended user / 問題與使用者
+
+Clarify who will use the application and what should become easier, faster, safer, or less repetitive.
+
+### Inputs and outputs / 輸入與輸出
+
+Ask what the user or system provides first and what useful result should come out. Request one de-identified real example when it materially improves the specification. If no real example exists, offer a clearly labeled mock example.
+
+### Rules and judgment / 規則與判斷
+
+Separate fixed rules from judgment. Use deterministic code for calculations, dates, permissions, workflow states, and fixed conditions; database/search for exact retrieval; AI for unstructured understanding, summarization, classification, drafting, and flexible interpretation; human approval for irreversible or high-risk actions.
+
+### Main workflow / 主要流程
+
+Reconstruct one complete primary path internally. Describe it back in everyday language and ask whether it matches real life.
 
 ### Suggested screens / 建議畫面
 
-When a visual interface is needed, propose three to five simple screens. For each screen, define purpose, fields, actions, and loading/empty/error/success states internally. Show the user only a concise proposal, for example:
-
-> 根據你的使用方式，我建議第一版只有四個畫面：開始頁、旅行問卷、三套方案比較、正式行程。你覺得還缺少哪個必要畫面？
-
-Do not ask the user to choose a framework or design technical states.
+When a visual interface is needed, propose three to five simple screens. Do not ask the user to choose a framework or design loading/error states.
 
 ### Delivery target / 交付平台
 
-After the main use and intended users are clear, ask where the completed application must run and how the user wants to receive it. Use a short plain-language question such as:
+After users and access patterns are clear, ask where the finished application must run and what the user expects to receive: Web URL, Windows installer/portable app, macOS app, Ubuntu/Linux package or service, Android app, iPhone/iPad app, container, source code, or multi-platform delivery.
 
-> 這個工具最後要在哪裡使用？例如直接用瀏覽器開啟、Windows 安裝包、Mac App、Ubuntu/Linux、Android 手機或平板、iPhone/iPad，還是需要多平台？如果你不確定，我可以依使用情境建議。
-
-Then confirm the expected artifact only when needed: hosted URL, installer, portable executable, app package, container/service, or source code. Ask about target OS version, device architecture, offline use, signing, store distribution, and installation permissions only when they change feasibility or acceptance.
-
-Never assume Web is the answer. If the target remains undecided, explain that this changes the architecture and cannot be finalized silently.
+Do not silently choose Web. Ask about signing, certificates, notarization, app-store distribution, target OS version, CPU architecture, offline use, installation permissions, update, and uninstall only when they materially affect implementation.
 
 ### Scope / 第一版範圍
 
-Classify requests internally as first version, later, explicitly excluded, or undecided. Keep the first version near three to six modules and one primary success path. If it grows beyond that, recommend a smaller version and explain what will still be useful when it is finished.
+Keep the first version to one complete useful workflow and roughly three to six modules. Classify other requests as later, excluded, or undecided.
 
 ## Stage 3: Confirm the first version / 階段三：確認第一版
 
-Present one plain-language blueprint containing:
+Present one short, plain-language blueprint containing:
 
-1. What problem the tool solves and for whom.
-2. What the user provides and receives.
-3. The first complete end-to-end workflow.
-4. The first-version modules.
-5. The suggested screens, when applicable.
-6. What will wait until later.
-7. Where it will run and how it will be delivered or installed.
-8. What observable result means the first version works.
+1. problem and intended user;
+2. main input and desired result;
+3. primary end-to-end workflow;
+4. three to six first-version modules;
+5. suggested screens when needed;
+6. what will wait until later;
+7. target platform and delivery form;
+8. observable success evidence.
 
 Ask for one overall confirmation:
 
@@ -78,42 +120,64 @@ Ask for one overall confirmation:
 - 有一點要修改 / I need to change something
 - 我還不確定，請你建議 / I am not sure—please recommend
 
-Do not show a fixed list of confirmed facts, inferences, exclusions, and conflicts when those categories are empty. If there is a real conflict, explain only the competing choices and their practical impact. If a public, sensitive, paid, or irreversible action is involved, ask the necessary human-approval and safety question in ordinary language before approval.
+Do not generate the five files while a product-changing conflict, delivery target, or critical acceptance decision remains unresolved.
 
-## Stage 4: Create the files / 階段四：產生文件
+## Stage 4: Create the five files / 階段四：產生五份文件
 
-After the blueprint is approved, complete the following internal work without turning it into another user questionnaire:
+After approval, create:
+
+1. `PRODUCT.md`
+2. `ARCHITECTURE.md`
+3. `ACCEPTANCE.md`
+4. `AGENTS.md`
+5. `START_CODEX.md`
 
 ### Acceptance / 驗收
 
-Create Given–When–Then cases for every first-version module. Cover normal, error, and boundary behavior. Add authorization, isolation, privacy, recovery, performance, or cost cases only when the project requires them.
+Create measurable Given–When–Then cases for every first-version module. Cover normal, error, and boundary behavior. Add authorization, privacy, performance, recovery, installation, update, uninstall, or cost cases only when relevant.
 
 ### Architecture / 架構
 
-Choose the simplest architecture that satisfies the confirmed use. Infer technical design from user-facing decisions such as:
+Choose the simplest architecture that satisfies the confirmed use. Every technical component must map to a real requirement. Keep unsupported commands or environments explicitly unconfirmed.
 
-- only this user versus several people;
-- one device versus access from anywhere;
-- temporary versus retained data;
-- ordinary versus sensitive information;
-- suggestion versus automatic or irreversible action;
-- target operating system, device type, application form, packaging, distribution, and offline requirements.
+### Codex handoff / Codex 交接
 
-Every technical component must solve a confirmed requirement. Keep unsupported commands and environments marked as unconfirmed.
+`START_CODEX.md` must require Codex to inspect the project and five specifications, restate the goal, list open questions and risks, propose the smallest vertical-slice plan, identify expected build/package artifacts and acceptance cases, and make no code changes in its first turn.
 
-### Implementation handoff / Codex交接
+After plan approval, Codex should work in recoverable milestones, run documented checks, maintain `PROJECT_STATUS.md`, and return build, test, preview, acceptance, and blocker evidence.
 
-Define the project directory, target platform, expected build artifact, packaging and release phases, smallest vertical slice, candidate build/test/package commands, definition of done, and Codex stop conditions. `START_CODEX.md` must require Codex to inspect and propose a plan before modifying code, then work in recoverable milestones, update `PROJECT_STATUS.md`, run tests, and return preview and acceptance evidence for the user's next EW AI Coding continuation.
+## Stage 5: Continue after the five files / 階段五：五份文件後繼續
 
-### Package and compilation / 文件與一致性
+The five files are not the finish line. Continue through:
 
-Generate `PRODUCT.md`, `ARCHITECTURE.md`, `ACCEPTANCE.md`, `AGENTS.md`, and `START_CODEX.md` as one package. Run the consistency checks in `SKILL.md` internally. Pause only if a major conflict, missing core example, or product-changing decision prevents a reliable package.
+1. GitHub record / GitHub 建檔
+2. Codex development / Codex 開發
+3. Automated tests / 自動測試
+4. User preview / 使用者預覽
+5. Acceptance fixes / 驗收修正
+6. Authorized release / 授權發布
+7. Value verification / 價值驗證
 
-## Conversation examples / 對話表達原則
+When the user returns after Codex work, resume from the earliest incomplete lifecycle stage using available project evidence. Do not restart the original interview unless implementation reveals a product-changing conflict.
+
+## Safety and stop conditions / 安全停止條件
+
+Pause before:
+
+- deleting or overwriting user data;
+- using real credentials or secrets;
+- adding paid services or making payments;
+- changing public access, authentication, roles, isolation, or cloud restrictions;
+- selecting between materially different products or architectures;
+- changing target OS, packaging, signing, distribution, or hosting;
+- high-risk financial, medical, legal, safety, or device-control actions;
+- production or public release.
+
+## Conversation style / 對話方式
 
 Prefer:
 
-> 這個工具只有你自己使用，還是也要讓其他人使用？
+> 這個工具只有你自己用，還是也要讓其他人使用？
 
 Avoid:
 
@@ -121,14 +185,14 @@ Avoid:
 
 Prefer:
 
-> 使用工具時，你最可能先做什麼：回答問題、輸入文字，還是上傳檔案？如果你不知道，我可以根據你的構想建議。
+> 你現在每天最常重複哪一步？是整理、核對、查找、填寫、通知，還是產生報表？
 
 Avoid:
 
-> 請一次提供輸入、輸出、正常案例、錯誤案例與邊界條件。
+> 請列出所有可自動化節點與 ROI。
 
 Prefer:
 
-> 我目前理解的是：你想讓旅伴填寫需求，產生三套行程，再一起比較和確認。對嗎？
+> 我目前理解的是：這一段規則固定、資料也拿得到，所以很適合先做；另一段需要資深人員判斷，第一版先讓 AI 提示、由人確認。這樣符合實際工作嗎？
 
-Avoid fixed card summaries and approval forms after every answer.
+The goal is to make the user feel guided while preserving implementation rigor internally.
