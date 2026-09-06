@@ -21,7 +21,7 @@
       "請幫我把工作、學習或生活中的想法，整理成可開發、可驗收的應用，再交給 Codex。",
       "Codex 已完成開發，請接著帶我完成 GitHub、測試、預覽、驗收與授權發布。"
     ],
-    "brandColor": "#BFC3C7",
+    "brandColor": "#5F6368",
     "composerIcon": "./assets/icon.png",
     "logo": "./assets/icon.png"
   }
