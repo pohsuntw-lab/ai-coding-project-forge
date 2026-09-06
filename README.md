@@ -117,10 +117,10 @@ EW AI Coding 的目的不是把所有需求交給單一軟體商，而是先讓�
 
 ## Quick start
 
-- `I'm an individual user. I want to... / 我是一般用戶，我想要……`
+- `I want to build an app that... / 我想開發一個能夠……的應用。`
 - `請幫我分析這份 SOP／流程，看看哪些工作適合做成應用。`
-- `I'm a business user. I want to... / 我是企業用戶，我想要……`
-- `I've finished coding. What should I do next? / 我已完成 Coding，下一步該怎麼做？`
+- `I want to improve this workflow or repeated task... / 我想改善這個流程或重複工作……`
+- `Codex has finished coding. What should I do next? / Codex 已完成開發，下一步怎麼做？`
 
 ## Design principles
 
@@ -169,9 +169,9 @@ Before generating the five files, EW AI Coding confirms where the finished appli
 
 ## Version
 
-`v0.8.1` makes all three ChatGPT conversation starters bilingual in English and Traditional Chinese while keeping each complete card within the 128-character platform limit. The three routes are individual user, business user, and post-coding continuation; selecting 1, 2, or 3 activates the corresponding guided Skill flow.
+`v0.8.1` makes all three ChatGPT conversation starters bilingual in English and Traditional Chinese while keeping each complete card within the 128-character platform limit. The routes follow project maturity—an application idea, a workflow or repeated task, and post-coding continuation—so the first two cards elicit the user's intended application or problem instead of merely classifying identity. Selecting 1, 2, or 3 activates the corresponding guided Skill flow.
 
-`v0.8.1` 將三張 ChatGPT 提示卡全部改為英文與繁體中文並列，且每張完整雙語文案均不超過平台 128 字元限制；三個入口分別對應一般用戶、企業用戶與 Coding 完工後續作，選擇 1、2、3 後由 Skill 進入相應引導流程。
+`v0.8.1` 將三張 ChatGPT 提示卡全部改為英文與繁體中文並列，且每張完整雙語文案均不超過平台 128 字元限制；三個入口依專案成熟度分為「應用想法」、「流程或重複工作」與「Coding 完工後續作」。前兩張卡直接引導使用者說出想開發的應用或想改善的問題，而不是只分類使用者身分；選擇 1、2、3 後由 Skill 進入相應引導流程。
 
 `v0.8.0` expands EW AI Coding from idea-to-build guidance into application opportunity discovery. Users can now start from an idea, SOP, workflow diagram, procedure, interview notes, or repetitive task. When workflow evidence exists, EW AI Coding first identifies suitable automation opportunities, tasks that need prerequisites, AI-assist-only work, and work that should remain manual. It then guides the selected opportunity one question at a time into the same five Codex-ready specifications and continues through GitHub, Codex development, automated testing, preview, acceptance, explicit release authorization, and value verification. Personal and everyday-life applications remain first-class; enterprise governance appears only when the actual scope requires it. The public brand remains **EW AI Coding**.
 

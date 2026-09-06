@@ -23,9 +23,9 @@ EW AI Coding v0.8.1 會依情況先判斷哪些事情值得做成應用，再一
 
 ### 三個快速入口
 
-- `I'm an individual user. I want to... / 我是一般用戶，我想要……`
-- `I'm a business user. I want to... / 我是企業用戶，我想要……`
-- `I've finished coding. What should I do next? / 我已完成 Coding，下一步該怎麼做？`
+- `I want to build an app that... / 我想開發一個能夠……的應用。`
+- `I want to improve this workflow or repeated task... / 我想改善這個流程或重複工作……`
+- `Codex has finished coding. What should I do next? / Codex 已完成開發，下一步怎麼做？`
 
 ### 你會得到的五份文件
 
@@ -62,9 +62,9 @@ EW AI Coding v0.8.1 first identifies what is worth turning into an application w
 
 ### Quick starters
 
-- `I'm an individual user. I want to... / 我是一般用戶，我想要……`
-- `I'm a business user. I want to... / 我是企業用戶，我想要……`
-- `I've finished coding. What should I do next? / 我已完成 Coding，下一步該怎麼做？`
+- `I want to build an app that... / 我想開發一個能夠……的應用。`
+- `I want to improve this workflow or repeated task... / 我想改善這個流程或重複工作……`
+- `Codex has finished coding. What should I do next? / Codex 已完成開發，下一步怎麼做？`
 
 ### Five deliverables
 

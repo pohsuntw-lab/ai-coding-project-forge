@@ -22,9 +22,9 @@ EW AI Coding v0.8.1 修正三張提示卡的語言一致性；每張卡都同時
 
 ChatGPT 入口維持三張卡，不把所有功能塞進卡片。建議文案：
 
-1. `I'm an individual user. I want to... / 我是一般用戶，我想要……`
-2. `I'm a business user. I want to... / 我是企業用戶，我想要……`
-3. `I've finished coding. What should I do next? / 我已完成 Coding，下一步該怎麼做？`
+1. `I want to build an app that... / 我想開發一個能夠……的應用。`
+2. `I want to improve this workflow or repeated task... / 我想改善這個流程或重複工作……`
+3. `Codex has finished coding. What should I do next? / Codex 已完成開發，下一步怎麼做？`
 
 ### 品牌與圖示
 
