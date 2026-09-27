@@ -1,5 +1,16 @@
 # Changelog
 
+## v0.9.0 — 2026-09-27
+
+- Added an internal Local Engineering route for projects that require local installation, services, adapters, device-facing integration, or environment-specific deployment.
+- Preserved the existing non-programmer-first experience and all three public conversation starters; users are not required to select a technical mode.
+- Added the EW Deployment Package model with manifest, apply, verification, rollback, and evidence artifacts.
+- Added strict execution boundaries that separate planning, generation, execution, and verification.
+- Added a future-compatible runtime boundary so manual execution today can later be replaced by an authorized local runtime or MCP server without changing the user-facing workflow.
+- Added a structured handoff boundary for protocol mapping: protocol interpretation remains upstream, while EW AI Coding turns an approved protocol specification into implementation and deployment artifacts.
+- Added local-engineering, deployment-package, and execution-boundaries reference modules.
+- Updated version metadata and publishing validation for v0.9.0.
+
 ## v0.8.1 — 2026-09-06
 
 - Made all three ChatGPT conversation starters bilingual in English and Traditional Chinese.

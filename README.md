@@ -169,6 +169,12 @@ Before generating the five files, EW AI Coding confirms where the finished appli
 
 ## Version
 
+## v0.9.0 Local Engineering
+
+v0.9.0 adds an internal Local Engineering path for projects that truly require local or edge deployment. Ordinary users still start from the same idea/workflow conversation. When required, EW AI Coding can now produce a structured Deployment Package with machine-readable intent, apply steps, verification, rollback, and execution evidence. Manual execution works today; the same package model is designed to be consumable by a future authorized local runtime or MCP server.
+
+v0.9.0 新增內部 Local Engineering 路徑。一般使用者入口完全不變；只有專案真正涉及本機／邊緣安裝、服務、介接或設備資料整合時才啟動。本版本加入標準化 Deployment Package、驗證、rollback 與執行證據邊界，現在可由使用者人工執行，未來可直接銜接授權的 Local Runtime／MCP Server。
+
 `v0.8.1` makes all three ChatGPT conversation starters bilingual in English and Traditional Chinese while keeping each complete card within the 128-character platform limit. The routes follow project maturity—an application idea, a workflow or repeated task, and post-coding continuation—so the first two cards elicit the user's intended application or problem instead of merely classifying identity. Selecting 1, 2, or 3 activates the corresponding guided Skill flow.
 
 `v0.8.1` 將三張 ChatGPT 提示卡全部改為英文與繁體中文並列，且每張完整雙語文案均不超過平台 128 字元限制；三個入口依專案成熟度分為「應用想法」、「流程或重複工作」與「Coding 完工後續作」。前兩張卡直接引導使用者說出想開發的應用或想改善的問題，而不是只分類使用者身分；選擇 1、2、3 後由 Skill 進入相應引導流程。

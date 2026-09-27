@@ -3,7 +3,7 @@ name: ai-coding-project-forge
 description: Guide anyone from an idea, SOP, workflow, or repetitive task through opportunity analysis, five Codex-ready specifications, GitHub setup, Codex development, testing, preview, acceptance, authorized release, and value verification. English and Traditional Chinese supported. 引導使用者從想法、SOP、流程或重複工作，完成應用機會分析、五份規格、Codex 開發、驗收、發布與價值驗證。
 ---
 
-# EW AI Coding v0.8.1
+# EW AI Coding v0.9.0
 
 ## AI Application Project Forge / AI 應用專案鍛造工具
 
@@ -64,12 +64,30 @@ Never force an ordinary user to select a technical mode before speaking. Let the
 - Existing code / 既有程式：inspect before changing; never assume it may be rebuilt.
 - Specification review / 規格健檢：review the five files without implementing.
 - Continue after Codex / Codex 完工後續作：resume from evidence and the first incomplete lifecycle stage.
+- Local engineering / 本機工程：when the requested application must install or configure software on a local machine, run or manage local services, create adapters, integrate device-facing data, or verify an environment-specific deployment, route internally to `references/local-engineering.md`. Do not make ordinary users choose a technical mode.
 
 For a blank new start, ask simply:
 
 > 你現在有什麼想法、流程或重複工作想改善？直接像平常聊天一樣告訴我，不完整也沒關係。
 
 > What idea, workflow, or repetitive task would you like to improve? Tell me naturally; it does not need to be complete.
+
+## v0.9 Local Engineering / 本機工程
+
+Local Engineering is an internal extension of the normal EW AI Coding workflow. It activates only when the real project requires local or edge execution such as installation, service configuration, adapters, device-facing integration, or environment-specific deployment.
+
+Do not expose Local Engineering, MCP, runtime, shell, or infrastructure as mandatory concepts to ordinary users. Keep the visible entry unchanged: the user describes what they want to build or improve.
+
+When Local Engineering applies:
+
+1. follow `references/local-engineering.md`;
+2. generate a structured Deployment Package according to `references/deployment-package.md` when persistent local changes are required;
+3. follow `references/execution-boundaries.md` to separate prepared work from actual execution and verification;
+4. without an execution tool, never claim that installation, file modification, service restart, device connection, or verification occurred;
+5. with a future authorized local runtime or MCP server, treat that runtime as a narrow execution layer rather than the location of domain knowledge;
+6. when a structured protocol specification is supplied by a dedicated protocol-mapping workflow, use it as an input contract and do not silently reinterpret protocol facts.
+
+The normal five-file planning flow remains authoritative. Local Engineering adds deployment rigor only where required.
 
 ## v0.8 Opportunity analysis / 應用機會分析
 
