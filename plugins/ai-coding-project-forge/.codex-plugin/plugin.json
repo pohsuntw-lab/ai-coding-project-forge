@@ -1,7 +1,7 @@
 {
   "name": "ai-coding-project-forge",
-  "version": "0.8.1",
-  "description": "Bilingual EW AI Coding application forge that starts from an idea, SOP, workflow, or repetitive task, analyzes worthwhile opportunities, creates five Codex-ready specifications, and guides users through GitHub, Codex development, testing, preview, acceptance, authorized release, and value verification.",
+  "version": "0.9.0",
+  "description": "Bilingual EW AI Coding application forge for non-programmers, from ideas and workflows to Codex-ready specifications, testing and acceptance, with optional Local Engineering deployment planning for local and edge projects.",
   "author": {
     "name": "Embodied Worker"
   },
@@ -9,7 +9,7 @@
   "interface": {
     "displayName": "EW AI Coding",
     "shortDescription": "Idea to app｜從想法到應用",
-    "longDescription": "EW AI Coding helps people move beyond AI chat and turn work problems, learning goals, everyday-life ideas, SOPs, workflows, and repetitive tasks into real applications. It first helps identify what is worth building, then guides users one question at a time to create five consistent Codex-ready files and continue through GitHub project history, Codex development, automated testing, user preview, acceptance fixes, explicitly authorized release, and evidence-based value verification. Personal and everyday uses remain first-class; enterprise governance is added only when the actual scope requires it. EW AI Coding 幫助使用者從 AI 對話走向真正可執行的應用。可從工作問題、學習目標、生活想法、SOP、流程圖或重複工作開始，先判斷哪些事情值得做成應用，再一次一題完成需求澄清與五份 Codex 規格，接續 GitHub、Codex 開發、自動測試、預覽、驗收、授權發布與價值驗證。一般民眾與企業共用同一核心流程，只有真正需要時才加入企業級治理。",
+    "longDescription": "EW AI Coding helps people move beyond AI chat and turn work problems, learning goals, everyday-life ideas, SOPs, workflows, and repetitive tasks into real applications. v0.9.0 adds an internal Local Engineering path for projects that truly require local or edge deployment, while keeping the ordinary-user experience unchanged. It first helps identify what is worth building, then guides users one question at a time to create five consistent Codex-ready files and continue through GitHub project history, Codex development, automated testing, user preview, acceptance fixes, explicitly authorized release, and evidence-based value verification. Personal and everyday uses remain first-class; enterprise governance is added only when the actual scope requires it. EW AI Coding 幫助使用者從 AI 對話走向真正可執行的應用。v0.9.0 新增按需啟動的本機工程路徑，只有專案真的涉及本機或邊緣部署時才啟用，不增加一般使用者的操作複雜度。可從工作問題、學習目標、生活想法、SOP、流程圖或重複工作開始，先判斷哪些事情值得做成應用，再一次一題完成需求澄清與五份 Codex 規格，接續 GitHub、Codex 開發、自動測試、預覽、驗收、授權發布與價值驗證。一般民眾與企業共用同一核心流程，只有真正需要時才加入企業級治理。",
     "developerName": "Embodied Worker",
     "category": "Developer Tools",
     "capabilities": [
