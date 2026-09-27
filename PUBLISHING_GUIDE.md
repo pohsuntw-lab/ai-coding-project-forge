@@ -1,10 +1,10 @@
-# EW AI Coding v0.8.1 發佈說明 / Publishing Guide
+# EW AI Coding v0.9.0 發佈說明 / Publishing Guide
 
 ## 繁體中文
 
-### v0.8.1 這次要驗證什麼
+### v0.9.0 這次要驗證什麼
 
-EW AI Coding v0.8.1 修正三張提示卡的語言一致性；每張卡都同時提供英文與繁體中文，並保持在 128 字元限制內。v0.8.0 的完整 AI 應用鍛造能力維持不變。
+EW AI Coding v0.9.0 在不改變一般使用者入口的前提下，新增按需啟動的 Local Engineering 能力、標準化 Deployment Package、執行邊界與未來 Runtime/MCP 相容接口。三張公開提示卡與一般使用者優先原則維持不變。
 
 公開前至少完成以下驗證：
 
@@ -17,6 +17,9 @@ EW AI Coding v0.8.1 修正三張提示卡的語言一致性；每張卡都同時
 7. **Codex 後續流程**：Codex 完成後，EW AI Coding 應從 GitHub、測試、預覽、驗收、授權發布與價值驗證中第一個未完成階段繼續，而不是重新訪談。
 8. **安全停止條件**：公開發布、付費服務、憑證、敏感資料、不可逆操作與高風險決策必須要求明確授權或人工確認。
 9. **一般使用者優先**：個人、學習、旅行、生活與創作者用途都是一級場景；只有實際需要時才加入企業治理要求。
+10. **Local Engineering 路由**：只有本機安裝、服務、介接、設備資料或環境特定部署真正影響專案時才啟動，不要求一般使用者選工程模式。
+11. **Deployment Package**：涉及本機持久變更時，能產生 manifest、套用、驗證、rollback 與 evidence 的結構化工作包。
+12. **執行證據**：沒有本機執行工具時不得聲稱已安裝、已修改、已重啟或已驗證；未來有 Runtime/MCP 時仍保留授權與證據邊界。
 
 ### 三張提示卡
 
@@ -45,9 +48,9 @@ ChatGPT 入口維持三張卡，不把所有功能塞進卡片。建議文案：
 
 ## English
 
-### What v0.8.1 must validate
+### What v0.9.0 must validate
 
-EW AI Coding v0.8.1 fixes language parity across the three starter cards. Every card now includes both English and Traditional Chinese and remains within the 128-character limit. The complete v0.8.0 application-forging workflow remains unchanged.
+EW AI Coding v0.9.0 adds an on-demand Local Engineering path, a structured Deployment Package, execution boundaries, and future runtime/MCP compatibility while preserving the ordinary-user-first experience and all three public starter cards.
 
 Before publication, validate at least these cases:
 
@@ -60,10 +63,13 @@ Before publication, validate at least these cases:
 7. **Post-Codex continuation** — resume from the first incomplete stage among GitHub, testing, preview, acceptance, authorized release, and value verification instead of restarting the interview.
 8. **Safety stops** — public release, paid services, credentials, sensitive data, irreversible actions, and high-risk decisions require explicit authorization or human approval.
 9. **General-purpose positioning** — personal, learning, travel, lifestyle, and creator use cases remain first-class; enterprise controls are added only when required by the actual scope.
+10. **Local Engineering routing** — activate only when local installation, services, adapters, device-facing data, or environment-specific deployment materially affects the project.
+11. **Deployment Package** — local persistent changes produce structured manifest, apply, verification, rollback, and evidence artifacts.
+12. **Execution evidence** — without a local execution tool, never claim installation, modification, restart, connection, or verification; future Runtime/MCP execution retains authorization and evidence boundaries.
 
 ### Publishing sequence
 
-1. Confirm GitHub `SKILL.md` and `plugin.json` are v0.8.1.
+1. Confirm GitHub `SKILL.md` and `plugin.json` are v0.9.0.
 2. Replace `assets/icon.png` with the approved silver Embodied Worker elephant mark.
 3. Test at least three real cases: ordinary idea, SOP/workflow analysis, and post-Codex continuation.
 4. Verify five-file consistency and safety stop conditions.
