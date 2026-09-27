@@ -1,0 +1,75 @@
+name: Package EW AI Coding v0.9.0
+
+on:
+  push:
+    branches:
+      - package/v0.9.0-upload
+
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build upload package
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm -rf package
+          mkdir -p package
+          cp -a plugins/ai-coding-project-forge/. package/
+
+          cat > package/plugin.json <<'JSON'
+          {
+            "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+            "name": "ai-coding-project-forge",
+            "version": "0.9.0",
+            "description": "Bilingual EW AI Coding application forge for non-programmers, from ideas and workflows to Codex-ready specifications, testing and acceptance, with optional Local Engineering deployment planning for local and edge projects.",
+            "author": {
+              "name": "Embodied Worker"
+            },
+            "extensions": {
+              "com.openai": {
+                "interface": {
+                  "displayName": "EW AI Coding",
+                  "shortDescription": "Idea to app｜從想法到應用",
+                  "longDescription": "EW AI Coding helps people move beyond AI chat and turn work problems, learning goals, everyday-life ideas, SOPs, workflows, and repetitive tasks into real applications. v0.9.0 adds an internal Local Engineering path for projects that truly require local or edge deployment, while keeping the ordinary-user experience unchanged. EW AI Coding 幫助使用者從 AI 對話走向真正可執行的應用。v0.9.0 新增按需啟動的本機工程路徑，只有專案真的涉及本機或邊緣部署時才啟用，不增加一般使用者的操作複雜度。",
+                  "developerName": "Embodied Worker",
+                  "category": "Developer Tools",
+                  "capabilities": ["Interactive", "Write"],
+                  "defaultPrompt": [
+                    "I want to build an app that... / 我想開發一個能夠……的應用。",
+                    "I want to improve this workflow or repeated task... / 我想改善這個流程或重複工作……",
+                    "Codex has finished coding. What should I do next? / Codex 已完成開發，下一步怎麼做？"
+                  ],
+                  "brandColor": "#5F6368",
+                  "composerIcon": "./assets/icon.png",
+                  "logo": "./assets/icon.png"
+                }
+              }
+            }
+          }
+          JSON
+
+          python -m json.tool package/plugin.json >/dev/null
+          python -m json.tool package/.codex-plugin/plugin.json >/dev/null
+
+          test -f package/plugin.json
+          test -f package/.codex-plugin/plugin.json
+          test -f package/assets/icon.png
+          test -f package/skills/ai-coding-project-forge/SKILL.md
+          test -f package/skills/ai-coding-project-forge/agents/openai.yaml
+          test -f package/skills/ai-coding-project-forge/references/local-engineering.md
+          test -f package/skills/ai-coding-project-forge/references/deployment-package.md
+          test -f package/skills/ai-coding-project-forge/references/execution-boundaries.md
+
+          echo "Package tree:"
+          find package -type f | sort
+
+      - name: Upload complete plugin package
+        uses: actions/upload-artifact@v4
+        with:
+          name: EW-AI-Coding-v0.9.0-upload
+          path: package/
+          if-no-files-found: error
+          retention-days: 7
