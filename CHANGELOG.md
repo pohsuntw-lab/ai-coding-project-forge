@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.9.1 — 2026-09-28
+
+- Reframed EW AI Coding around AI management leverage rather than prompt skill or programming education.
+- Added a clear transition from repeated AI supervision to reusable digital work systems.
+- Added three management measures: attention leverage, management span, and safe hands-off duration.
+- Added the principle `Human in every loop → Human defines the loop`.
+- Clarified that maturity is not measured by the number of prompts or agents being supervised.
+- Reinforced responsibility separation: deterministic software for repeatable rules and state, AI for flexible interpretation, and humans for high-risk or irreversible decisions.
+- Updated the public README and core Skill instructions while preserving the v0.9.0 Local Engineering architecture.
+
 ## v0.9.0 — 2026-09-27
 
 - Added an internal Local Engineering route for projects that require local installation, services, adapters, device-facing integration, or environment-specific deployment.
