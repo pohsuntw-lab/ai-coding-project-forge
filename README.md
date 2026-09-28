@@ -4,27 +4,51 @@
 
 **Turn an idea, SOP, workflow, or repetitive task into an application that can be built, tested, accepted, delivered, and verified for real value.**
 
-EW AI Coding is a free bilingual skill that helps anyone move beyond AI chat. Users can start from an everyday-life idea, learning goal, work problem, SOP, workflow diagram, or repetitive task. EW AI Coding first helps identify what is worth turning into an application, then guides the user one question at a time to create five consistent files ready for Codex, establish recoverable GitHub history, and continue after coding through automated tests, user preview, acceptance fixes, explicitly authorized release, and evidence-based value verification. It can be used for report automation, study assistants, AI travel planners, personal organizers, team workflows, and enterprise applications.
+EW AI Coding is a free bilingual skill that helps anyone move from **working beside AI** to **managing reusable AI-enabled work systems**. Users can start from an everyday-life idea, learning goal, work problem, SOP, workflow diagram, or repetitive task. Instead of spending human attention on repeated prompting, waiting, reviewing, and rework, EW AI Coding helps turn goals, rules, boundaries, exceptions, and acceptance criteria into a reusable application that can be built, tested, accepted, delivered, and improved. It identifies what is worth turning into an application, creates five consistent Codex-ready specifications, establishes recoverable GitHub history, and continues after coding through tests, preview, acceptance fixes, explicitly authorized release, and evidence-based value verification.
 
 **AI 應用專案鍛造工具**
 
-EW AI Coding 是免費的中英雙語技能，目的不是讓使用者停留在與 AI 聊天，而是把想法真正推進成可執行的應用。使用者可以從生活構想、學習需求、工作問題、SOP、流程圖或每天重複做的事情開始；EW AI Coding 會先協助判斷哪些工作值得做成應用，再透過一次一題的自然對話整理需求，產生五份可交付 Codex 的一致規格，建立可恢復的 GitHub 開發紀錄，並在 Codex 完成編程後繼續引導自動測試、使用者預覽、驗收修正、明確授權發布與價值驗證。
+EW AI Coding 是免費的中英雙語技能，目的不是讓使用者一直「陪跑 AI」，而是協助人從對話式使用者升級成能管理數位工作系統的人。使用者可以從生活構想、學習需求、工作問題、SOP、流程圖或每天重複做的事情開始，把原本需要反覆提示、等待、檢查與返工的工作，整理成明確的目標、規則、邊界、例外與驗收標準，再交給 AI Coding 建成可重複執行的應用。EW AI Coding 會先協助判斷哪些工作值得應用化，產生五份可交付 Codex 的一致規格，建立可恢復的 GitHub 開發紀錄，並在 Codex 完成編程後繼續引導測試、預覽、驗收修正、明確授權發布與價值驗證。
 
 [Install in ChatGPT / 在 ChatGPT 安裝](https://chatgpt.com/plugins/plugins_6a93c934664c8191baa12828cdb9cc58)
 
 ## Why AI Coding matters
 
-Office helped people create documents, spreadsheets, and presentations faster. AI Coding addresses the next problem: people should not have to repeat the same rule-based work every day.
+Office helped people create documents, spreadsheets, and presentations faster. Generative AI made knowledge work faster, but faster generation alone does not remove the management burden. If every task still requires a person to repeatedly prompt, wait, inspect, correct, and restart, human attention remains the bottleneck.
 
-AI Coding does not mean everyone must become a software engineer. It means identifying repetitive or time-consuming work, explaining the workflow and decision criteria in natural language, and working with AI to turn that knowledge into a reusable digital tool. People define the goal, rules, exceptions, and acceptance criteria; AI helps with implementation and repeated execution.
+EW AI Coding addresses the next problem: **move from using AI one conversation at a time to defining a work system that AI and software can execute repeatedly.**
+
+The goal is not to maximize the number of prompts or agents. The goal is management leverage:
+
+- **Attention leverage** — How much accepted output can be produced for each unit of human attention?
+- **Management span** — Can multiple tasks progress through explicit rules and states without a person supervising every exchange?
+- **Hands-off duration** — How long can a workflow continue safely before human judgment or approval is genuinely required?
+
+AI Coding does not mean everyone must become a software engineer. People define the objective, workflow, rules, exceptions, boundaries, and acceptance criteria. Deterministic software handles repeatable rules and state. AI handles flexible interpretation where appropriate. Humans retain approval for high-risk, irreversible, or professionally accountable decisions.
+
+The target transformation is:
+
+**Human in every loop → Human defines the loop.**
 
 ## 為什麼是 AI Coding
 
-Office 時代解決的是「更快完成文件、表格與簡報」；AI Coding 時代要解決的是「不必每天重複做同樣的事」。
+Office 時代解決的是「更快完成文件、表格與簡報」；生成式 AI 進一步加快知識工作，但如果每一件事仍需要人反覆下 Prompt、等待、檢查、修正、重來，真正昂貴的仍然是人的注意力。
 
-AI Coding 不是要求每個人都成為軟體工程師，而是讓人找出工作、學習與生活中重複耗時的部分，用自然語言說清楚目標、流程、資料、規則、例外與驗收方式，再與 AI 共同把經驗轉化成可以重複執行的數位工具。
+EW AI Coding 要解決的下一個問題，是把使用者從「一次管理一段 AI 對話」，升級成「定義一套可以重複運行的數位工作系統」。
 
-過去是人去適應軟體；現在是使用者描述真實需求，AI 協助建立適合的工具。Office 讓人具備數位作業能力；AI Coding 讓人具備工具創造與工作自動化能力。
+真正要提高的不是 Prompt 數量，也不是同時開多少個 Agent，而是三種管理槓桿：
+
+- **注意力槓桿**：每投入一單位人的注意力，可以得到多少合格成果？
+- **管理幅度**：多項工作能否按照明確規則與狀態自行推進，而不是每一步都靠人盯著？
+- **自主運行時長**：在真正需要人工判斷或核准之前，工作流可以安全自主運行多久？
+
+AI Coding 不是要求每個人都成為軟體工程師。人負責定義目標、流程、規則、例外、邊界與驗收標準；確定性軟體負責可重複規則與狀態；AI 負責適合彈性理解的部分；高風險、不可逆或需要專業責任的決策仍由人核准。
+
+EW AI Coding 要完成的轉變是：
+
+**Human in every loop → Human defines the loop.**
+
+也就是：**不是一直陪著 AI 工作，而是把自己的工作方法交給系統。**
 
 ## What “project forging” means
 
@@ -168,6 +192,12 @@ Before generating the five files, EW AI Coding confirms where the finished appli
 在產生五份文件前，EW AI Coding 會確認應用最終在哪裡使用，以及要交付網址、Windows 安裝包或可攜版、Mac App、Ubuntu/Linux 套件或服務、Android 手機／平板 App、iPhone／iPad App、多平台版本、容器或原始碼。打包、簽章、安裝、更新與卸載要求會同步寫入架構與驗收文件。
 
 ## Version
+
+## v0.9.1 Management Leverage
+
+v0.9.1 strengthens the public explanation of EW AI Coding around management leverage. The product is not positioned as prompt training or programming education. It helps users convert repeated AI supervision into explicit objectives, rules, boundaries, exceptions, and acceptance criteria that can be implemented as reusable digital workflows. The new framing emphasizes attention leverage, management span, and safe hands-off duration while preserving human approval for high-risk actions.
+
+v0.9.1 強化 EW AI Coding 的「AI 管理槓桿」定位。產品不是 Prompt 教學，也不是要求所有人學寫程式，而是協助使用者把反覆盯著 AI 的工作，轉化成明確的目標、規則、邊界、例外與驗收標準，再建立為可重複執行的數位工作流。新版特別強調注意力槓桿、管理幅度與安全自主運行時長，同時保留高風險行動的人工作業與核准邊界。
 
 ## v0.9.0 Local Engineering
 
