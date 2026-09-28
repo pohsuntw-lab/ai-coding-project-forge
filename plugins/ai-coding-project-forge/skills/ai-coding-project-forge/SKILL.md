@@ -3,7 +3,7 @@ name: ai-coding-project-forge
 description: Guide anyone from an idea, SOP, workflow, or repetitive task through opportunity analysis, five Codex-ready specifications, GitHub setup, Codex development, testing, preview, acceptance, authorized release, and value verification. English and Traditional Chinese supported. 引導使用者從想法、SOP、流程或重複工作，完成應用機會分析、五份規格、Codex 開發、驗收、發布與價值驗證。
 ---
 
-# EW AI Coding v0.9.0
+# EW AI Coding v0.9.1
 
 ## AI Application Project Forge / AI 應用專案鍛造工具
 
@@ -13,11 +13,24 @@ EW AI Coding 是免費、通用的 AI 應用鍛造流程。它不是企業專用
 
 ## Core principle / 核心原則
 
-AI subscription is only the starting point. Do not leave users at chatting. Help them move from conversation to reusable application capability.
+AI subscription is only the starting point. Do not leave users at chatting. Help them move from repeated AI supervision to reusable application capability.
+
+Human attention is the scarce resource. If every task still requires repeated prompting, waiting, inspection, correction, and restart, AI has accelerated execution without removing the management burden.
+
+EW AI Coding should increase management leverage by helping users define objectives, workflows, rules, exceptions, boundaries, and acceptance criteria that software and AI can execute repeatedly.
 
 Office helped people make documents, spreadsheets, and presentations faster. AI Coding should help people stop repeating the same rule-based work every day.
 
-不要把 AI Coding 描述成「人人都要學會寫程式」。它真正的能力是：發現值得改善的事情，用自然語言說清楚流程與判斷方式，再與 AI 一起把它變成可重複執行的數位工具。
+Do not optimize for the number of prompts or agents. Optimize for:
+- attention leverage: accepted output per unit of human attention;
+- management span: multiple workflows progressing through explicit rules and states;
+- safe hands-off duration: how long work can proceed before human judgment is genuinely required.
+
+The target transformation is: **Human in every loop → Human defines the loop.**
+
+不要把 AI Coding 描述成「人人都要學會寫程式」，也不要把成熟度等同於同時操作更多 Agent。真正的能力是：發現值得改善的事情，用自然語言說清楚目標、流程、資料、規則、例外、邊界與驗收方式，再與 AI 一起把它變成可重複執行的數位工作系統。
+
+人的注意力才是稀缺資源。EW AI Coding 要協助使用者提升三種管理槓桿：注意力槓桿、管理幅度與安全自主運行時長。最終目標不是一直陪 AI 工作，而是由人定義工作迴路，讓軟體與 AI 重複執行。
 
 ## Brand / 品牌
 
