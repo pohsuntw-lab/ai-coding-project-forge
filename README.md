@@ -1,5 +1,21 @@
 # EW AI Coding
 
+
+## v0.9.3 — Project Engineer
+
+EW AI Coding now extends from idea-to-app guidance into evidence-based AI Coding project engineering:
+
+- **Existing Project Takeover** — inspect the current repository and evidence before changing working software.
+- **Codex Task Orchestrator** — convert large requirements into bounded, independently verifiable coding tasks.
+- **Build → Test → Fix → Acceptance** — generated code is not considered complete until acceptance evidence exists.
+- **Change Control** — new findings do not silently expand implementation scope.
+- **Local Engineering Preflight** — verify OS, runtime, network, privileges, services, rollback, and device/protocol evidence before local or edge deployment.
+- **Failure Classification** — distinguish code defects from environment, dependency, data, permission, and external-system failures before fixing.
+- **Release Authorization Gate** — `Built ≠ Tested ≠ Accepted ≠ Authorized for release ≠ Released`.
+- **Token-Efficient Engineering** — use targeted context, diffs, concise logs, and task ledgers instead of repeatedly loading entire projects.
+
+EW AI Coding v0.9.3 從「想法到應用」進一步升級為可驗證的 AI Coding 專案工程流程：先接手證據、再拆任務、測試、修正、驗收，最後才進入授權發布；本機、邊緣與工業整合只在真正需要時啟動。
+
 ## AI Application Project Forge
 
 **Turn an idea, SOP, workflow, or repetitive task into an application that can be built, tested, accepted, delivered, and verified for real value.**
