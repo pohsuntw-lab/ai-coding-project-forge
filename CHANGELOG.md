@@ -1,5 +1,16 @@
 # Changelog
 
+## v0.9.3 — 2026-09-30
+
+- Added Existing Project Takeover so EW AI Coding inspects evidence and preserves working behavior before modifying an existing project.
+- Added a structured Codex Task Orchestrator with evidence baseline, change boundaries, implementation contract, verification plan, acceptance gate, and completion evidence.
+- Added the Build → Test → Fix → Acceptance engineering loop and explicit release authorization gate.
+- Added task sizing and change-control rules to prevent silent scope expansion and oversized coding tasks.
+- Added Local Engineering preflight for OS, runtime, network, privileges, services, rollback, and industrial protocol evidence.
+- Added failure classification to distinguish specification, implementation, dependency, environment, data, permission, and external-system defects before changing code.
+- Added token-efficient engineering guidance focused on targeted file inspection, diffs, concise test evidence, and compact task ledgers.
+- Updated plugin metadata and public service URLs for Website, Support, Privacy Policy, and Terms of Service.
+
 ## v0.9.1 — 2026-09-28
 
 - Reframed EW AI Coding around AI management leverage rather than prompt skill or programming education.
